@@ -1,1 +1,172 @@
-label { display: block; }
+body { 
+  font-family: Times;
+  padding: 0;
+  margin: 0;
+  background-color: #FEFEF2;
+}
+
+#personal-details, #employee-health, #financial-considerations, #comments {
+  background-color: #fcfcfc;
+}
+
+header, #main-content, footer {
+  width: 960px;
+  margin: auto;
+}
+
+header p {
+  background-color: #000;
+  font-size: 30px;
+  color: white;
+  margin: 0;
+  padding: 15px 25px;
+}
+
+/* Main Content */
+#main-content {
+}
+
+/*= Personal Details */
+#personal-details {
+  position: relative;
+  float: left;
+  width: 310px;
+  height: 665px;
+  border: 1px solid #eee;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 25px;
+  border-radius: 3px;
+}
+
+#personal-details h3 {
+  width: 260px;
+  border-bottom: 2px solid #aaa;
+}
+
+#personal-details input, #personal-details select {
+  width: 250px;
+  margin-bottom: 15px;
+  padding: 5px;
+  color: #555;
+  border: 1px solid #aaa;
+}
+
+#personal-details label {
+  font-style: italic;
+  color: #444;
+  text-indent: 3px;
+}
+
+/*= Employee Health Card Program Need */
+#employee-health {
+  float: right;
+  width: 550px;
+  border: 1px solid #eee;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 3px;
+}
+
+#employee-health input[type=text] {
+  border: 1px solid #aaa;
+  padding: 5px;
+}
+
+#employee-health h3 {
+  border-bottom: 2px solid #aaa;
+}
+
+#employee-health li {
+  font-style: italic;
+}
+
+#employee-health select {
+  width: 200px;
+  border: 1px solid #aaa;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+/*= Financial Considerations */
+#financial-considerations {
+  float: right;
+  width: 550px;
+  border: 1px solid #eee;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 3px;
+}
+
+#financial-considerations h3 {
+  border-bottom: 2px solid #aaa;
+}
+
+#financial-considerations select {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+#financial-considerations li {
+  font-style: italic;
+}
+
+#financial-considerations input[type=text] {
+  border: 1px solid #aaa;
+  padding: 5px;
+}
+
+/*= Comments */
+#comments {
+  border: 1px solid #eee;
+  margin-top: 15px;
+  border-radius: 3px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+#comments textarea {
+  width: 500px;
+}
+
+#comments h3 {
+  width: 800px;
+  border-bottom: 2px solid #aaa;
+}
+
+#comments p {
+  font-style: italic;
+}
+
+#comments textarea {
+  border: 1px solid #aaa;
+}
+
+input[type=submit] {
+  padding: 10px 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+label { 
+  display: block; 
+}
+
+textarea { 
+  display: block; 
+}
+
+/*= Footer */
+footer {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  font-size: small;
+  padding: 5px 25px;
+}
