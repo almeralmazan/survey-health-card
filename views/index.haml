@@ -1,0 +1,26 @@
+%form(action="/create" method="post")
+  %h3 Personal Details:
+  %label(for="name") Name
+  %input(type="text" name="name" placeholder="Please input full name here...")
+
+  %label(for="gender") Gender
+  %select(name="gender")
+    %option(value="M") Male
+    %option(value="F") Female
+
+  %label(for="age") Age
+  %input(type="number" name="age")
+
+  %label(for="region") Region / Province
+  %input(type="text" name="region")
+
+  %label(for="nature") Nature of Employment (contractual, permanent)
+  %input(type="text" name="nature")
+
+  %label(for="email") Email
+  %input(type="text" name="email")
+
+  %label(for="cpno") Cellphone no.
+  %input(type="text" name="cpno")
+
+  %input(type="submit" value="Save")
