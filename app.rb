@@ -38,6 +38,15 @@ end
 
 # test only
 post '/test' do
-  person.name = params[:name]
+  @p = Person.new
+  @p.name = params[:name]
+  @p.gender = params[:gender]
+  @p.age = params[:age]
+  @p.region = params[:region]
+  @p.province = params[:province]
+  @p.nature = params[:nature]
+  @p.email = params[:email]
+  @p.cpno = params[:cpno]
+  haml :list
 end
 
