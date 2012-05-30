@@ -18,8 +18,10 @@
     %label(for="province") Province
     %input(type="text" name="province")
 
-    %label(for="nature") Nature of Employment <br /> (contractual, permanent)
-    %input(type="text" name="nature")
+    %label(for="nature") Nature of Employment
+    %select(name="nature")
+      %option(value="contractual") Contractual
+      %option(value="permanent") Permanent
 
     %label(for="email") Email
     %input(type="text" name="email")
@@ -31,25 +33,25 @@
     %h3 Employee Health Card Program Need
     %ol
       %li Do you have an existing Health &amp; Management Office (HMO) / Health Card?
-      %select(name="first_question")
+      %select(name="emp_hcp_ans1")
         %option(value="yes") Yes
         %option(value="no") No
 
       %li If no, do you think, you need to subscribe to a Health Card program?
-      %select(name="second_question")
+      %select(name="emp_hcp_ans2")
         %option(value="yes") Yes
         %option(value="no") No
 
       %li If yes, what health services do you want covered by the Health Card program? 
-      %input(type="checkbox" value="Annual Physical Examination")Annual Physical Examination<br />
-      %input(type="checkbox" value="In-Patient Care (hospital admission)")In-Patient Care (hospital admission)<br />
-      %input(type="checkbox" value="Out-Patient Care (clinic-based)")Out-Patient Care (clinic-based)<br />
-      %input(type="checkbox" value="Emergency Care")Emergency Care<br />
-      %input(type="checkbox" value="Dental Care")Dental Care<br />
-      %input(type="checkbox" value="Financial Care Assistance")Financial Care Assistance<br />
+      %input(type="checkbox" name="ape" value="Annual Physical Examination")Annual Physical Examination<br />
+      %input(type="checkbox" name="ipc" value="In-Patient Care (hospital admission)")In-Patient Care (hospital admission)<br />
+      %input(type="checkbox" name="opc" value="Out-Patient Care (clinic-based)")Out-Patient Care (clinic-based)<br />
+      %input(type="checkbox" name="ec" value="Emergency Care")Emergency Care<br />
+      %input(type="checkbox" name="dc" value="Dental Care")Dental Care<br />
+      %input(type="checkbox" name="fca" value="Financial Care Assistance")Financial Care Assistance<br />
       %span Others (pls. specify)
       %input(type="text" name="others") <br />
-      %input(type="checkbox" value="No Answer")No Answer
+      %input(type="checkbox" name="no_answer" value="No Answer")No Answer
 
   #financial-considerations
     %h3 Financial Considerations
@@ -60,15 +62,16 @@
         %option(value="no") No
 
       %li if yes, how much are you willing to spend for your Health Card subscription?
-      %select(name="financial_second_question")
+      %select(id="fin_amount" name="fin_amount" onchange="grabData()")
         %option(value="Below P500 / monthly") Below P500 / monthly
         %option(value="P500 / monthly") P500 / monthly
         %option(value="Above P500 / monthly") Above P500 / monthly
         %option(value="P1000 / monthly") P1000 / monthly
         %option(value="Above P1000 / monthly") Above P1000 / monthly
-        %option(value="other amount") Other amount, pls. specify
+        %option(value="others") Other amount, pls. specify
 
-      %input(type="text" name="others") <br />
+      <!-- pre-generated input textbox from javascript -->
+      #others
 
   <!-- lazy way to do a space between floated content -->
   <div style="clear: both;"></div>
@@ -77,6 +80,5 @@
     %h3 Employee Comments / Suggestions / Queries
     %p Please fill-in the space provided with your comments and suggestions that may not have been covered by this survey form.
     %textarea(rows="4" name="comments")
-
 
   %input(type="submit" value="Save")

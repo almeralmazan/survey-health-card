@@ -9,14 +9,23 @@ class Person
   property :gender,         String
   property :age,            String
   property :region,         String
-  property :nature,         Text
+  property :province,       String
+  property :nature,         String
   property :email,          String
   property :cpno,           String
-  property :second_answer,  Text
-  property :third_answer,   Text
-  property :fourth_answer,  Text
-  property :created_at,     DateTime
-  property :updated_at,     DateTime
+  property :emp_hcp_ans1,   String
+  property :emp_hcp_ans2,   String
+  property :ape,            String
+  property :ipc,            String
+  property :opc,            String
+  property :ec,             String
+  property :dc,             String
+  property :fca,            String
+  property :others,         String
+  property :no_answer,      String
+  property :fin_con_ans1,   String
+  property :fin_con_ans2,   String
+  property :comments,       Text
 
 end
 

@@ -11,29 +11,33 @@ end
 # create record
 post '/create' do
   p = Person.new
-  p.name = params[:full_name]
+  p.name = params[:name]
+  p.gender = params[:gender]
   p.age = params[:age]
-  p.sex = params[:sex]
-  p.work = params[:work]
-  p.address = params[:address]
-  p.benefit = params[:benefits]
-  p.first_answer = params[:first_answer]
-  p.second_answer = params[:second_answer]
+  p.region = params[:region]
+  p.province = params[:province]
+  p.nature = params[:nature]
+  p.email = params[:email]
+  p.cpno = params[:cpno]
+  p.emp_hcp_ans1 = params[:emp_hcp_ans1]
+  p.emp_hcp_ans2 = params[:emp_hcp_ans2]
   p.third_answer = params[:third_answer]
   p.fourth_answer = params[:fourth_answer]
-  p.created_at = Time.now
+  p.fin_con_ans1 = params[:fin_con_ans1]
+  p.fin_con_ans2 = params[:fin_con_ans2]
+  p.comments = params[:comments]
 
   if p.save
-    status 201
+    #status 201
     redirect '/success'
   else
-    status 412
+    #status 412
     redirect '/failed'
   end
 end
 
-# list all person
-get '/list' do
-  @persons = Person.all
-  erb :list
+# test only
+post '/test' do
+  person.name = params[:name]
 end
+
