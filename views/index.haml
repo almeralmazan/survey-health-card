@@ -1,4 +1,4 @@
-%form(action="/test" method="post")
+%form(action="/create" method="post")
   #personal-details
     %h3 Personal Details:
     %label(for="name") Name
@@ -12,8 +12,24 @@
     %label(for="age") Age
     %input(type="number" name="age")
 
-    %label(for="region") Region
-    %input(type="text" name="region")
+    %label(for="region") Regions
+    %select(name="region")
+      %option(value="CAR") CAR
+      %option(value="NCR") NCR
+      %option(value="Region I") Region I
+      %option(value="Region II") Region II
+      %option(value="Region III") Region III
+      %option(value="Region IVa") Region IVa
+      %option(value="Region IVb") Region IVb
+      %option(value="Region V") Region V
+      %option(value="Region VI") Region VI
+      %option(value="Region VII") Region VII
+      %option(value="Region VIII") Region VIII
+      %option(value="Region IX") Region IX
+      %option(value="Region X") Region X
+      %option(value="Region XI") Region XI
+      %option(value="Region XII") Region XII
+      %option(value="Region XIII") Region XIII
 
     %label(for="province") Province
     %input(type="text" name="province")
@@ -57,12 +73,12 @@
     %h3 Financial Considerations
     %ol
       %li Are you willing to spend personal money to finance your subscription to a Health Card program (thru a corporate account with a HMO)?
-      %select(name="financial_first_question")
+      %select(name="fin_ans1")
         %option(value="yes") Yes
         %option(value="no") No
 
       %li if yes, how much are you willing to spend for your Health Card subscription?
-      %select(id="fin_amount" name="fin_amount" onchange="grabData()")
+      %select(id="fin_amount" name="fin_amount" onchange="createInputTextBox()")
         %option(value="Below P500 / monthly") Below P500 / monthly
         %option(value="P500 / monthly") P500 / monthly
         %option(value="Above P500 / monthly") Above P500 / monthly
