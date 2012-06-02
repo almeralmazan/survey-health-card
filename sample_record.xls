@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<ss:Workbook xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+<ss:Styles><ss:Style ss:ID="1"><ss:Font ss:Bold="1"/></ss:Style></ss:Styles>
+<ss:Worksheet ss:Name="Sqliteman Export">
+<ss:Table>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Row ss:StyleID="1">
+<ss:Cell><ss:Data ss:Type="String">id</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">name</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">gender</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">age</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">region</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">province</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">nature</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">email</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">cpno</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">emp_hcp_ans1</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">emp_hcp_ans2</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">third_answer</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">fourth_answer</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">fin_con_ans1</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">fin_con_ans2</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">comments</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">ape</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">ipc</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">opc</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">ec</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">dc</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">fca</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">others</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">no_answer</ss:Data></ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell><ss:Data ss:Type="String">1</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Almer Leo H. Almazan</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">M</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">35</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Region II</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Cagayan</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">contractual</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">almeralmazan@gmail.com</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">09195888343</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">no</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">20,000 above</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Just a simple comment</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">In-Patient Care (hospital admission)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Out-Patient Care (clinic-based)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Dental Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Financial Care Assistance</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+</ss:Row>
+</ss:Table>
+</ss:Worksheet>
+</ss:Workbook>

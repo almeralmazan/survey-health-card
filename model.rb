@@ -1,4 +1,4 @@
-DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/health_card_subs.db")
+DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/health_card.db")
 
 class Person
 
