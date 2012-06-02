@@ -1,5 +1,5 @@
 body { 
-  font-family: Times;
+  font-family: Helvetica;
   padding: 0;
   margin: 0;
   background-color: #FEFEF2;
@@ -23,19 +23,18 @@ header p {
 }
 
 /* Main Content */
-#main-content {
-}
 
 /*= Personal Details */
 #personal-details {
   position: relative;
   float: left;
-  width: 310px;
-  height: 665px;
+  width: 320px;
+  height: 570px;
   border: 1px solid #eee;
-  margin-top: 10px;
+  margin-top: 30px;
+  margin-left: 20px;
   padding-top: 10px;
-  padding-left: 25px;
+  padding-left: 45px;
   border-radius: 3px;
 }
 
@@ -61,12 +60,11 @@ header p {
 /*= Employee Health Card Program Need */
 #employee-health {
   float: right;
-  width: 550px;
+  width: 480px;
   border: 1px solid #eee;
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
+  margin-top: 30px;
+  margin-right: 20px;
+  padding: 10px 25px;
   border-radius: 3px;
 }
 
@@ -79,10 +77,6 @@ header p {
   border-bottom: 2px solid #aaa;
 }
 
-#employee-health li {
-  font-style: italic;
-}
-
 #employee-health select {
   width: 200px;
   border: 1px solid #aaa;
@@ -90,15 +84,19 @@ header p {
   margin-bottom: 20px;
 }
 
+.emp_checkbox {
+  font-size: 13px;
+}
+
+
 /*= Financial Considerations */
 #financial-considerations {
   float: right;
-  width: 550px;
+  width: 480px;
   border: 1px solid #eee;
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
+  margin-top: 15px;
+  margin-right: 20px;
+  padding: 10px 25px 18px 25px;
   border-radius: 3px;
 }
 
@@ -112,35 +110,45 @@ header p {
   margin-bottom: 20px;
 }
 
-#financial-considerations li {
-  font-style: italic;
-}
-
 #financial-considerations input[type=text] {
   border: 1px solid #aaa;
   padding: 5px;
+}
+
+#fin_amount {
+  display: inline;
+  float: left;
+}
+
+.others {
+  margin-left: 15px;
 }
 
 /*= Comments */
 #comments {
   border: 1px solid #eee;
   margin-top: 15px;
+  margin-left: 20px;
   border-radius: 3px;
-  padding-left: 15px;
-  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  width: 340px;
 }
 
 #comments textarea {
-  width: 500px;
+  width: 320px;
+  height: 60px;
 }
 
 #comments h3 {
-  width: 800px;
+  width: 300px;
   border-bottom: 2px solid #aaa;
 }
 
 #comments p {
   font-style: italic;
+  font-family: Times;
+  padding-right: 25px;
 }
 
 #comments textarea {
@@ -148,18 +156,26 @@ header p {
 }
 
 input[type=submit] {
-  padding: 10px 80px;
+  padding: 10px 180px;
+  margin-left: 220px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-label { 
+label, textarea { 
   display: block; 
 }
 
-textarea { 
-  display: block; 
+label, li {
+  font-size: 14.5px;
 }
+
+li {
+  font-size: 15.5px;
+  line-height: 1.5;
+  width: 400px;
+}
+
 
 /*= Footer */
 footer {
@@ -170,6 +186,8 @@ footer {
   padding: 5px 25px;
 }
 
+
+/* From Success page content */
 /*= Success Info */
 #success-container {
   height: 500px;
