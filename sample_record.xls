@@ -25,8 +25,6 @@
 <ss:Column ss:Width="100"/>
 <ss:Column ss:Width="100"/>
 <ss:Column ss:Width="100"/>
-<ss:Column ss:Width="100"/>
-<ss:Column ss:Width="100"/>
 <ss:Row ss:StyleID="1">
 <ss:Cell><ss:Data ss:Type="String">id</ss:Data></ss:Cell>
 <ss:Cell><ss:Data ss:Type="String">name</ss:Data></ss:Cell>
@@ -39,11 +37,6 @@
 <ss:Cell><ss:Data ss:Type="String">cpno</ss:Data></ss:Cell>
 <ss:Cell><ss:Data ss:Type="String">emp_hcp_ans1</ss:Data></ss:Cell>
 <ss:Cell><ss:Data ss:Type="String">emp_hcp_ans2</ss:Data></ss:Cell>
-<ss:Cell><ss:Data ss:Type="String">third_answer</ss:Data></ss:Cell>
-<ss:Cell><ss:Data ss:Type="String">fourth_answer</ss:Data></ss:Cell>
-<ss:Cell><ss:Data ss:Type="String">fin_con_ans1</ss:Data></ss:Cell>
-<ss:Cell><ss:Data ss:Type="String">fin_con_ans2</ss:Data></ss:Cell>
-<ss:Cell><ss:Data ss:Type="String">comments</ss:Data></ss:Cell>
 <ss:Cell><ss:Data ss:Type="String">ape</ss:Data></ss:Cell>
 <ss:Cell><ss:Data ss:Type="String">ipc</ss:Data></ss:Cell>
 <ss:Cell><ss:Data ss:Type="String">opc</ss:Data></ss:Cell>
@@ -52,6 +45,9 @@
 <ss:Cell><ss:Data ss:Type="String">fca</ss:Data></ss:Cell>
 <ss:Cell><ss:Data ss:Type="String">others</ss:Data></ss:Cell>
 <ss:Cell><ss:Data ss:Type="String">no_answer</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">fin_con_ans1</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">fin_con_ans2</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">comments</ss:Data></ss:Cell>
 </ss:Row>
 <ss:Row>
 <ss:Cell><ss:Data ss:Type="String">1</ss:Data></ss:Cell>
@@ -67,17 +63,15 @@
 <ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
 <ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
 <ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">No Answer</ss:Data></ss:Cell>
 <ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
-<ss:Cell><ss:Data ss:Type="String">20,000 above</ss:Data></ss:Cell>
-<ss:Cell><ss:Data ss:Type="String">Just a simple comment</ss:Data></ss:Cell>
-<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
-<ss:Cell><ss:Data ss:Type="String">In-Patient Care (hospital admission)</ss:Data></ss:Cell>
-<ss:Cell><ss:Data ss:Type="String">Out-Patient Care (clinic-based)</ss:Data></ss:Cell>
-<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
-<ss:Cell><ss:Data ss:Type="String">Dental Care</ss:Data></ss:Cell>
-<ss:Cell><ss:Data ss:Type="String">Financial Care Assistance</ss:Data></ss:Cell>
-<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
-<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">10000 above</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Just a simple comment.</ss:Data></ss:Cell>
 </ss:Row>
 </ss:Table>
 </ss:Worksheet>

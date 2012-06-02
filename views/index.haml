@@ -2,7 +2,7 @@
   #personal-details
     %h3 Personal Details:
     %label(for="name") Name
-    %input(type="text" name="name" placeholder="Please input full name here...")
+    %input(type="text" name="name" autofocus="autofocus" placeholder="Please input full name here...")
 
     %label(for="gender") Gender
     %select(name="gender")
@@ -10,7 +10,7 @@
       %option(value="F") Female
 
     %label(for="age") Age
-    %input(type="number" name="age")
+    %input(type="number" name="age" min="16")
 
     %label(for="region") Regions
     %select(name="region" onchange="setCategory(this)")
@@ -73,7 +73,7 @@
           %span(class="emp_checkbox")Dental Care<br />
         %input(type="checkbox" name="fca" value="Financial Care Assistance")
           %span(class="emp_checkbox")Financial Care Assistance<br />
-        %span Others (pls. specify)
+        %span(id="other_span") Others (pls. specify)
         %input(type="text" name="others") <br />
       %input(type="checkbox" id="no_answer" name="no_answer" value="No Answer")
         %span(class="emp_checkbox")No Answer
@@ -86,7 +86,7 @@
         %option(value="yes") Yes
         %option(value="no") No
 
-      %li if yes, how much are you willing to spend for your Health Card subscription?
+      %li If yes, how much are you willing to spend for your Health Card subscription?
       %select(id="fin_amount" name="fin_amount" onchange="createInputTextBox()")
         %option(value="Below P500 / monthly") Below P500 / monthly
         %option(value="P500 / monthly") P500 / monthly
