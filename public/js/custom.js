@@ -2,7 +2,7 @@ $(document).ready( function() {
   $('#no_answer').click( function() {
     if ($(this).is(':checked')) {
       $('#six-chbox-one-input-text').slideToggle('slow'); 
-      $('input[name=ape], input[name=ipc], input[name=opc], input[name=ec], input[name=dc], input[name=fca]').attr('checked', false);
+      $('.cbox').attr('checked', false);
 
       $('input[name=others]').val('');
 
@@ -10,21 +10,6 @@ $(document).ready( function() {
       $('#six-chbox-one-input-text').slideToggle('slow'); 
     }
   });
-
-  // assuming your form has id="theform"
-  // defines a callback on submission of the form #theform
-  $('#theform').submit( function() {
-    // posts the contents of the form to /create using ajax
-    $.post('/create', $('#theform').serialize(), function(result) {
-      // assuming result is a string of the updated data in html
-      // and assuming that your data goes in an element with the id main-content
-      $('#main-content').html(result)
-      //var conf = confirm('Successfully created');
-      //if (conf) window.location.reload(true); 
-    }); 
-    return false; // prevents the form from submitting normally
-  });  
-
 
 });
 
