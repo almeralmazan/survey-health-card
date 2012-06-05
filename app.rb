@@ -20,6 +20,7 @@ post '/create' do
   p.nature       = params[:nature]
   p.email        = params[:email]
   p.cpno         = params[:cpno]
+  p.other_cpno   = params[:other_cpno]
   p.emp_hcp_ans1 = params[:emp_hcp_ans1]
   p.emp_hcp_ans2 = params[:emp_hcp_ans2]
   p.ape          = params[:ape]

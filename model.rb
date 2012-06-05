@@ -13,6 +13,7 @@ class Person
   property :nature,         String
   property :email,          String
   property :cpno,           String
+  property :other_cpno,     String
   property :emp_hcp_ans1,   String
   property :emp_hcp_ans2,   String
   property :ape,            String
