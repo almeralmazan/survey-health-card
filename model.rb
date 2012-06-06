@@ -22,7 +22,7 @@ class Person
   property :ec,             String
   property :dc,             String
   property :fca,            String
-  property :others,         String
+  property :others,         Text
   property :no_answer,      String
   property :fin_con_ans1,   String
   property :fin_con_ans2,   String
