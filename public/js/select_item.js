@@ -120,7 +120,7 @@ regiondb["NCR"] = [{value:"Manila", text:"Manila"},
                       {value:"Pasig", text:"Pasig"},
                       {value:"Pateros", text:"Pateros"},
                       {value:"Paranaque", text:"Paranaque"},
-                      {value:"Quezon", text:"Quezon"},
+                      {value:"Quezon City", text:"Quezon City"},
                       {value:"San Juan", text:"San Juan"},
                       {value:"Taguig", text:"Taguig"},
                       {value:"Valenzuela", text:"Valenzuela"}];
