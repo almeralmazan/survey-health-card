@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+<ss:Workbook xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+<ss:Styles><ss:Style ss:ID="1"><ss:Font ss:Bold="1"/></ss:Style></ss:Styles>
+<ss:Worksheet ss:Name="Sqliteman Export">
+<ss:Table>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Column ss:Width="100"/>
+<ss:Row ss:StyleID="1">
+<ss:Cell><ss:Data ss:Type="String">id</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">name</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">gender</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">age</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">region</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">province</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">nature</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">email</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">cpno</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">other_cpno</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">emp_hcp_ans1</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">emp_hcp_ans2</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">ape</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">ipc</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">opc</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">ec</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">dc</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">fca</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">others</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">no_answer</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">fin_con_ans1</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">fin_con_ans2</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">comments</ss:Data></ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell><ss:Data ss:Type="String">1</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Domingo B. Natividad V</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">M</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">34</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">NCR</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Manila</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">permanent</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">seahorseantiq@yahoo.com</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">09178258612</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">no</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Annual Physical Examination</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">In-Patient Care (hospital admission)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Out-Patient Care (clinic-based)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Emergency Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Dental Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Financial Care Assistance</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">P500 / monthly</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Immediate family / Beneficiary / Extension card with cost?</ss:Data></ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell><ss:Data ss:Type="String">2</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Jose Rafael Cesar Atencio</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">M</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">47</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">NCR</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Manila</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">permanent</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">joserafaelcesar@yahoo.com</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">09189219244</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">09159041002</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">no</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Annual Physical Examination</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">In-Patient Care (hospital admission)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Out-Patient Care (clinic-based)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Emergency Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Dental Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Financial Care Assistance</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">no</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Below P500 / monthly</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell><ss:Data ss:Type="String">3</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Jimmyley E. Guzman</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">F</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">35</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">NCR</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Manila</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">permanent</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">megamanila_pia@yahoo.com</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">09175620859</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">no</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Annual Physical Examination</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">In-Patient Care (hospital admission)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Out-Patient Care (clinic-based)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Emergency Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Dental Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Financial Care Assistance</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">P500 / monthly</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Can the Health Card program cover/include immediate family member/beneficiaries?</ss:Data></ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell><ss:Data ss:Type="String">4</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Estrella L. Biton</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">F</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">59</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">NCR</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Manila</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">permanent</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">estrella_biton@yahoo.com</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">09285204309</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Annual Physical Examination</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">In-Patient Care (hospital admission)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Out-Patient Care (clinic-based)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Emergency Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Rehabilitation medicine (PT), CT SCAN, MRI</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">P500 / monthly</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">1) A regular basic check-up is necessary for each employee for:
+a) Chest x-ray
+b) Labaratory tests for sugar, lipid profile, etc.
+c) Pap Smear for females
+d) Prostate tests for males
+e) Flu vaccines
+f) Urinalysis</ss:Data></ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell><ss:Data ss:Type="String">5</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Lucia F. Broño</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">F</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">55</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">NCR</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Manila</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">permanent</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">lucyfbronio@yahoo.com</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">09175620141</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">no</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Annual Physical Examination</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">In-Patient Care (hospital admission)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Out-Patient Care (clinic-based)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Emergency Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Dental Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Financial Care Assistance</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">P500 / monthly</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell><ss:Data ss:Type="String">6</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Luis T. Cueto</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">M</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">45</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Region IVb</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Oriental Mindoro</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">permanent</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">piaormin@yahoo.com</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">09209380844</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">no</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Annual Physical Examination</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">In-Patient Care (hospital admission)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Dental Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">P500 / monthly</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell><ss:Data ss:Type="String">7</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Lorry V. Gabule</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">F</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">56</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Region X</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Lanao Del Norte</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">permanent</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">pia_iligan@yahoo.com</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">09173086052</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">no</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Annual Physical Examination</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">In-Patient Care (hospital admission)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Out-Patient Care (clinic-based)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Emergency Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Dental Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Financial Care Assistance</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">P500 / monthly</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell><ss:Data ss:Type="String">8</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Victoria Asuncion S. Mendoza</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">F</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">52</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Region IVb</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Palawan</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">permanent</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">piappc@yahoo.com</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">09209491752</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">no</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Annual Physical Examination</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">In-Patient Care (hospital admission)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Emergency Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Financial Care Assistance</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">P500 / monthly</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell><ss:Data ss:Type="String">9</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Wilmer M. Carabanes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">M</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">48</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Region X</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">permanent</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">bhongrod@yahoo.com</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">09173084975</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Annual Physical Examination</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">In-Patient Care (hospital admission)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Out-Patient Care (clinic-based)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Emergency Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Dental Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Financial Care Assistance</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">P500 / monthly</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell><ss:Data ss:Type="String">10</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Pilar S. Mabaquiao</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">F</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Region VI</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Antique</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">permanent</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">larpi_pia@yahoo.com</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">09053665573</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">09298968929</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">no</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Annual Physical Examination</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">In-Patient Care (hospital admission)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Out-Patient Care (clinic-based)</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Emergency Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Dental Care</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">Financial Care Assistance</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">yes</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String">P500 / monthly</ss:Data></ss:Cell>
+<ss:Cell><ss:Data ss:Type="String"></ss:Data></ss:Cell>
+</ss:Row>
+</ss:Table>
+</ss:Worksheet>
+</ss:Workbook>

@@ -17,6 +17,7 @@ post '/create' do
   p.age          = params[:age]
   p.region       = params[:region]
   p.province     = params[:province]
+  p.division     = params[:division]
   p.nature       = params[:nature]
   p.email        = params[:email]
   p.cpno         = params[:cpno]

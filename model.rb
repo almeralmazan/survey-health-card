@@ -10,6 +10,7 @@ class Person
   property :age,            String
   property :region,         String
   property :province,       String
+  property :division,       String
   property :nature,         String
   property :email,          String
   property :cpno,           String
