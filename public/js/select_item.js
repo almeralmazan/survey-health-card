@@ -48,6 +48,8 @@ regiondb["Region VI"] = [{value:"Aklan", text:"Aklan"},
                       {value:"Capiz", text:"Capiz"},
                       {value:"Guimaras", text:"Guimaras"},
                       {value:"Iloilo", text:"Iloilo"},
+                      {value:"Iloilo City", text:"Iloilo City"},
+                      {value:"Negros Occidental", text:"Negros Occidental"},
                       {value:"Bacolod City", text:"Bacolod City"},
                       {value:"Palawan", text:"Palawan"}];
 
