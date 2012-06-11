@@ -1,34 +1,36 @@
 var regiondb = new Object();
 	
-regiondb["Region I"] = [{value:"Ilocos Norte", text:"Ilocos Norte"},
+regiondb["Region I"] = [{value:"Dagupan City", text:"Dagupan City"},
+                      {value:"Ilocos Norte", text:"Ilocos Norte"},
                       {value:"Ilocos Sur", text:"Ilocos Sur"},
                       {value:"La Union", text:"La Union"},
-                      {value:"Pangasinan", text:"Pangasinan"},
-                      {value:"Dagupan City", text:"Dagupan City"}];
+                      {value:"Pangasinan", text:"Pangasinan"}];
 
 regiondb["Region II"] = [{value:"Batanes", text:"Batanes"},
                       {value:"Cagayan", text:"Cagayan"},
                       {value:"Isabela", text:"Isabela"},
-                      {value:"Santiago City", text:"Santiago City"},
+                      {value:"Nueva Vizcaya", text:"Nueva Vizcaya"},
                       {value:"Quirino", text:"Quirino"},
-                      {value:"Nueva Vizcaya", text:"Nueva Vizcaya"}];
+                      {value:"Santiago City", text:"Santiago City"},
+                      {value:"Tuguegarao City", text:"Tuguegarao City"}];
 
-regiondb["Region III"] = [{value:"Aurora", text:"Aurora"},
+regiondb["Region III"] = [{value:"Angeles City", text:"Angeles City"},
+                      {value:"Aurora", text:"Aurora"},
                       {value:"Bataan", text:"Bataan"},
                       {value:"Bulacan", text:"Bulacan"},
                       {value:"Nueva Ecija", text:"Nueva Ecija"},
                       {value:"Pampanga", text:"Pampanga"},
                       {value:"Tarlac", text:"Tarlac"},
-                      {value:"Zambales", text:"Zambales"},
-                      {value:"Angeles City", text:"Angeles City"}];
+                      {value:"Zambales", text:"Zambales"}];
 
-regiondb["Region IVa"] = [{value:"Batangas", text:"Batangas"},
+                      
+regiondb["Region IVa"] = [{value:"Antipolo City", text:"Antipolo City"},
+                      {value:"Batangas", text:"Batangas"},
                       {value:"Cavite", text:"Cavite"},
                       {value:"Laguna", text:"Laguna"},
+                      {value:"Lucena City", text:"Lucena City"},
                       {value:"Quezon", text:"Quezon"},
-                      {value:"Rizal", text:"Rizal"},
-                      {value:"Antipolo City", text:"Antipolo City"},
-                      {value:"Lucena City", text:"Lucena City"}];
+                      {value:"Rizal", text:"Rizal"}];
 
 regiondb["Region IVb"] = [{value:"Marinduque", text:"Marinduque"},
                       {value:"Occidental Mindoro", text:"Occidental Mindoro"},
@@ -45,12 +47,12 @@ regiondb["Region V"] = [{value:"Albay", text:"Albay"},
 
 regiondb["Region VI"] = [{value:"Aklan", text:"Aklan"},
                       {value:"Antique", text:"Antique"},
+                      {value:"Bacolod City", text:"Bacolod City"},
                       {value:"Capiz", text:"Capiz"},
                       {value:"Guimaras", text:"Guimaras"},
                       {value:"Iloilo", text:"Iloilo"},
                       {value:"Iloilo City", text:"Iloilo City"},
                       {value:"Negros Occidental", text:"Negros Occidental"},
-                      {value:"Bacolod City", text:"Bacolod City"},
                       {value:"Palawan", text:"Palawan"}];
 
 regiondb["Region VII"] = [{value:"Bohol", text:"Bohol"},
@@ -109,12 +111,12 @@ regiondb["CAR"] = [{value:"Abra", text:"Abra"},
                       {value:"Kalinga", text:"Kalinga"},
                       {value:"Mountain Province", text:"Mountain Province"}];
 
-regiondb["NCR"] = [{value:"Manila", text:"Manila"},
-                      {value:"Caloocan", text:"Caloocan"},
+regiondb["NCR"] = [{value:"Caloocan", text:"Caloocan"},
                       {value:"Las Pinas", text:"Las Pinas"},
                       {value:"Makati", text:"Makati"},
                       {value:"Malabon", text:"Malabon"},
                       {value:"Mandaluyong", text:"Mandaluyong"},
+                      {value:"Manila", text:"Manila"},
                       {value:"Marikina", text:"Marikina"},
                       {value:"Muntinlupa", text:"Muntinlupa"},
                       {value:"Navotas", text:"Navotas"},
