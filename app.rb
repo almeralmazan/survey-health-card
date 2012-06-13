@@ -48,6 +48,10 @@ end
 # list all persons
 get '/list' do
   @plist = Person.all
+  @male_count = Person.count(:conditions => [ 'gender = ?', 'M' ])
+  @female_count = Person.count(:conditions => [ 'gender = ?', 'F' ])
+  @nature_perma = Person.count(:conditions => [ 'nature = ?', 'permanent'])
+  @nature_contr = Person.count(:conditions => [ 'nature = ?', 'contractual'])
   erb :list
 end
 
