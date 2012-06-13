@@ -92,6 +92,7 @@ regiondb["Region XI"] = [{value:"Compostela Valley", text:"Compostela Valley"},
 regiondb["Region XII"] = [{value:"Cotabato", text:"Cotabato"},
                       {value:"Cotabato City", text:"Cotabato City"},
                       {value:"General Santos City", text:"General Santos City"},
+                      {value:"Koronadal City", text:"Koronadal City"},
                       {value:"Sarangani", text:"Sarangani"},
                       {value:"South Cotabato", text:"South Cotabato"},
                       {value:"Sultan Kudarat", text:"Sultan Kudarat"}];

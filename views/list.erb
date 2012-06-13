@@ -1,0 +1,8 @@
+<h3>List of person</h3>
+<% unless @plist.empty? %>
+  <% @plist.each do |plist| %>
+    <li><%= plist.name %></li>
+  <% end %>
+<% else%>
+  <p>No person!</p>
+<% end %>

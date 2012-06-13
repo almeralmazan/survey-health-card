@@ -44,3 +44,11 @@ post '/create' do
     redirect '/failed'
   end
 end
+
+# list all persons
+get '/' do
+  @plist = Person.all
+  erb :list
+end
+
+
