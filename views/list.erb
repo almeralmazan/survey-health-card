@@ -1,14 +1,22 @@
-<h3>List of person</h3>
-<h4>Male : <%= @male_count %></h4>
-<h4>Female : <%= @female_count %></h4>
-<h4>Permanent : <%= @nature_perma %></h4>
-<h4>Contractual : <%= @nature_contr %></h4>
-<% unless @plist.empty? %>
-  <ol>
-  <% @plist.each do |plist| %>
-    <li><%= plist.name %></li>
+<div id="list-view">
+
+  <h3>List of person</h3>
+
+  <div id="table-list">
+    <h4>Male : <%= @male_count %></h4>
+    <h4>Female : <%= @female_count %></h4>
+    <h4>Permanent : <%= @nature_perma %></h4>
+    <h4>Contractual : <%= @nature_contr %></h4>
+  </div><!-- end table-list -->
+
+  <% unless @plist.empty? %>
+    <ol>
+    <% @plist.each do |plist| %>
+      <li><%= plist.name %></li>
+    <% end %>
+  </ol>
+  <% else%>
+    <p>No person!</p>
   <% end %>
-</ol>
-<% else%>
-  <p>No person!</p>
-<% end %>
+
+</div><!-- end list-view -->

@@ -48,11 +48,16 @@ end
 # list all persons
 get '/list' do
   @plist = Person.all
-  @male_count = Person.count(:conditions => [ 'gender = ?', 'M' ])
-  @female_count = Person.count(:conditions => [ 'gender = ?', 'F' ])
-  @nature_perma = Person.count(:conditions => [ 'nature = ?', 'permanent'])
-  @nature_contr = Person.count(:conditions => [ 'nature = ?', 'contractual'])
+  @male_count = count_by('gender', 'M')
+  @female_count = count_by('gender', 'F')
+  @nature_perma = count_by('nature', 'permanent')
+  @nature_contr = count_by('nature', 'contractual')
   erb :list
 end
 
-
+# Helper methods
+helpers do
+  def count_by(column, value)
+    Person.count(:conditions => [ "#{column} = ?", "#{value}"])
+  end
+end
