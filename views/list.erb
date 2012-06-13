@@ -3,11 +3,27 @@
   <h3>List of person</h3>
 
   <div id="table-list">
-    <h4>Male : <%= @male_count %></h4>
-    <h4>Female : <%= @female_count %></h4>
-    <h4>Permanent : <%= @nature_perma %></h4>
-    <h4>Contractual : <%= @nature_contr %></h4>
+  
   </div><!-- end table-list -->
+
+  <table border="1">
+    <tr>
+      <th rowspan="2">Region</th>
+      <th rowspan="2">Province</th>
+      <th colspan="2">Gender</th>
+      <th rowspan="2">Age range</th>
+      <th colspan="2">Nature Of Employment</th>
+      <th colspan="2">Existing HMO</th>
+    </tr>
+    <tr>
+      <td>Male</td>
+      <td>Female</td>
+      <td>Contractual</td>
+      <td>Permanent</td>
+      <td>Yes</td>
+      <td>No</td>
+    </tr>
+  </table>
 
   <% unless @plist.empty? %>
     <ol>

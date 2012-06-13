@@ -48,16 +48,22 @@ end
 # list all persons
 get '/list' do
   @plist = Person.all
-  @male_count = count_by('gender', 'M')
-  @female_count = count_by('gender', 'F')
-  @nature_perma = count_by('nature', 'permanent')
-  @nature_contr = count_by('nature', 'contractual')
+
+  reg8_min_age = Person.min(:age, :conditions => [ 'region = ?', 'Region VIII' ])
+  reg8_max_age = Person.max(:age, :conditions => [ 'region = ?', 'Region VIII' ])
+  @region8_age_range = age_range(reg8_min_age, reg8_max_age)
   erb :list
 end
 
 # Helper methods
 helpers do
+
   def count_by(column, value)
     Person.count(:conditions => [ "#{column} = ?", "#{value}"])
   end
+
+  def age_range(min, max)
+    "#{min} - #{max}"
+  end
+
 end

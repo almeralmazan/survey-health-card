@@ -7,7 +7,7 @@ class Person
   property :id,             Serial
   property :name,           String
   property :gender,         String
-  property :age,            String
+  property :age,            Integer
   property :region,         String
   property :province,       String
   property :division,       String
