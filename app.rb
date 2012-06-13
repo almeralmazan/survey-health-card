@@ -46,7 +46,7 @@ post '/create' do
 end
 
 # list all persons
-get '/' do
+get '/list' do
   @plist = Person.all
   erb :list
 end
