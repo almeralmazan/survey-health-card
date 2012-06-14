@@ -1,0 +1,341 @@
+#list-view
+  %h3 List of person
+
+  #table-list
+
+  %table(border="1")
+    %tr
+      %th(rowspan="2") Region
+      %th(rowspan="2") Division
+      %th(colspan="2") Gender
+      %th(rowspan="2") Age Range
+      %th(colspan="2") Nature of Employment
+      %th(colspan="2") Existing HMO
+
+    %tr
+      %td Male
+      %td Female
+      %td Contractual
+      %td Permanent
+      %td Yes
+      %td No
+
+    %tr
+      %td= set_region("Region I")
+      %td Provinces
+      %td= count_by("gender", "M")
+      %td= count_by("gender", "F")
+      %td= age_range_in
+      %td= nature_emp_by('contractual')
+      %td= nature_emp_by('permanent')
+      %td= existing_hmo_by('yes')
+      %td= existing_hmo_by('no')
+
+    %tr
+      %td= set_region("Region II") 
+      %td Provinces
+      %td= count_by("gender", "M") 
+      %td= count_by("gender", "F") 
+      %td= age_range_in 
+      %td= nature_emp_by('contractual') 
+      %td= nature_emp_by('permanent') 
+      %td= existing_hmo_by('yes') 
+      %td= existing_hmo_by('no') 
+
+    %tr
+      %td= set_region("Region III") 
+      %td Provinces
+      %td= count_by("gender", "M") 
+      %td= count_by("gender", "F") 
+      %td= age_range_in 
+      %td= nature_emp_by('contractual') 
+      %td= nature_emp_by('permanent') 
+      %td= existing_hmo_by('yes') 
+      %td= existing_hmo_by('no') 
+
+    %tr
+      %td= set_region("Region IVa") 
+      %td Provinces
+      %td= count_by("gender", "M") 
+      %td= count_by("gender", "F") 
+      %td= age_range_in 
+      %td= nature_emp_by('contractual') 
+      %td= nature_emp_by('permanent') 
+      %td= existing_hmo_by('yes') 
+      %td= existing_hmo_by('no') 
+
+    %tr
+      %td= set_region("Region IVb") 
+      %td Provinces
+      %td= count_by("gender", "M") 
+      %td= count_by("gender", "F") 
+      %td= age_range_in 
+      %td= nature_emp_by('contractual') 
+      %td= nature_emp_by('permanent') 
+      %td= existing_hmo_by('yes') 
+      %td= existing_hmo_by('no') 
+
+    %tr
+      %td= set_region("Region V") 
+      %td Provinces
+      %td= count_by("gender", "M") 
+      %td= count_by("gender", "F") 
+      %td= age_range_in 
+      %td= nature_emp_by('contractual') 
+      %td= nature_emp_by('permanent') 
+      %td= existing_hmo_by('yes') 
+      %td= existing_hmo_by('no') 
+
+    %tr
+      %td= set_region("Region VI") 
+      %td Provinces
+      %td= count_by("gender", "M") 
+      %td= count_by("gender", "F") 
+      %td= age_range_in 
+      %td= nature_emp_by('contractual') 
+      %td= nature_emp_by('permanent') 
+      %td= existing_hmo_by('yes') 
+      %td= existing_hmo_by('no') 
+
+
+    %tr
+      %td= set_region("Region VII") 
+      %td Provinces
+      %td= count_by("gender", "M") 
+      %td= count_by("gender", "F") 
+      %td= age_range_in 
+      %td= nature_emp_by('contractual') 
+      %td= nature_emp_by('permanent') 
+      %td= existing_hmo_by('yes') 
+      %td= existing_hmo_by('no') 
+
+    %tr
+      %td= set_region("Region VIII") 
+      %td Provinces
+      %td= count_by("gender", "M") 
+      %td= count_by("gender", "F") 
+      %td= age_range_in 
+      %td= nature_emp_by('contractual') 
+      %td= nature_emp_by('permanent') 
+      %td= existing_hmo_by('yes') 
+      %td= existing_hmo_by('no') 
+
+    %tr
+      %td= set_region("Region IX") 
+      %td Provinces
+      %td= count_by("gender", "M") 
+      %td= count_by("gender", "F") 
+      %td= age_range_in 
+      %td= nature_emp_by('contractual') 
+      %td= nature_emp_by('permanent') 
+      %td= existing_hmo_by('yes') 
+      %td= existing_hmo_by('no') 
+
+    %tr
+      %td= set_region("Region X") 
+      %td Provinces
+      %td= count_by("gender", "M") 
+      %td= count_by("gender", "F") 
+      %td= age_range_in 
+      %td= nature_emp_by('contractual') 
+      %td= nature_emp_by('permanent') 
+      %td= existing_hmo_by('yes') 
+      %td= existing_hmo_by('no') 
+
+    %tr
+      %td= set_region("Region XI") 
+      %td Provinces
+      %td= count_by("gender", "M") 
+      %td= count_by("gender", "F") 
+      %td= age_range_in 
+      %td= nature_emp_by('contractual') 
+      %td= nature_emp_by('permanent') 
+      %td= existing_hmo_by('yes') 
+      %td= existing_hmo_by('no') 
+
+    %tr
+      %td= set_region("Region XII") 
+      %td Provinces
+      %td= count_by("gender", "M") 
+      %td= count_by("gender", "F") 
+      %td= age_range_in 
+      %td= nature_emp_by('contractual') 
+      %td= nature_emp_by('permanent') 
+      %td= existing_hmo_by('yes') 
+      %td= existing_hmo_by('no') 
+
+    %tr
+      %td= set_region("Region XIII") 
+      %td Provinces
+      %td= count_by("gender", "M") 
+      %td= count_by("gender", "F") 
+      %td= age_range_in 
+      %td= nature_emp_by('contractual') 
+      %td= nature_emp_by('permanent') 
+      %td= existing_hmo_by('yes') 
+      %td= existing_hmo_by('no') 
+
+    %tr
+      %td= set_region("NCR") 
+      %td Provinces
+      %td= count_by("gender", "M") 
+      %td= count_by("gender", "F") 
+      %td= age_range_in 
+      %td= nature_emp_by('contractual') 
+      %td= nature_emp_by('permanent') 
+      %td= existing_hmo_by('yes') 
+      %td= existing_hmo_by('no') 
+
+    %tr
+      %td= set_region("CAR") 
+      %td Provinces
+      %td= count_by("gender", "M") 
+      %td= count_by("gender", "F") 
+      %td= age_range_in 
+      %td= nature_emp_by('contractual') 
+      %td= nature_emp_by('permanent') 
+      %td= existing_hmo_by('yes') 
+      %td= existing_hmo_by('no') 
+    
+    %tr
+      %td
+      %td= set_division("ACCOUNTING") 
+      %td= count_male_or_female('M') 
+      %td= count_male_or_female('F') 
+      %td= age_range_div 
+      %td= nature_emp_div('contractual') 
+      %td= nature_emp_div('permanent') 
+      %td= existing_hmo_div('yes') 
+      %td= existing_hmo_div('no') 
+    
+    %tr
+      %td
+      %td= set_division("ADMIN") 
+      %td= count_male_or_female('M') 
+      %td= count_male_or_female('F') 
+      %td= age_range_div 
+      %td= nature_emp_div('contractual') 
+      %td= nature_emp_div('permanent') 
+      %td= existing_hmo_div('yes') 
+      %td= existing_hmo_div('no') 
+    
+    %tr
+      %td
+      %td= set_division("BUDGET") 
+      %td= count_male_or_female('M') 
+      %td= count_male_or_female('F') 
+      %td= age_range_div 
+      %td= nature_emp_div('contractual') 
+      %td= nature_emp_div('permanent') 
+      %td= existing_hmo_div('yes') 
+      %td= existing_hmo_div('no') 
+    
+    %tr
+      %td
+      %td= set_division("CPSD") 
+      %td= count_male_or_female('M') 
+      %td= count_male_or_female('F') 
+      %td= age_range_div 
+      %td= nature_emp_div('contractual') 
+      %td= nature_emp_div('permanent') 
+      %td= existing_hmo_div('yes') 
+      %td= existing_hmo_div('no') 
+
+    %tr
+      %td
+      %td= set_division("HRDD") 
+      %td= count_male_or_female('M') 
+      %td= count_male_or_female('F') 
+      %td= age_range_div 
+      %td= nature_emp_div('contractual') 
+      %td= nature_emp_div('permanent') 
+      %td= existing_hmo_div('yes') 
+      %td= existing_hmo_div('no') 
+
+    %tr
+      %td
+      %td= set_division("MISD") 
+      %td= count_male_or_female('M') 
+      %td= count_male_or_female('F') 
+      %td= age_range_div 
+      %td= nature_emp_div('contractual') 
+      %td= nature_emp_div('permanent') 
+      %td= existing_hmo_div('yes') 
+      %td= existing_hmo_div('no') 
+
+    %tr
+      %td
+      %td= set_division("NEWS DESK") 
+      %td= count_male_or_female('M') 
+      %td= count_male_or_female('F') 
+      %td= age_range_div 
+      %td= nature_emp_div('contractual') 
+      %td= nature_emp_div('permanent') 
+      %td= existing_hmo_div('yes') 
+      %td= existing_hmo_div('no') 
+
+    %tr
+      %td
+      %td= set_division("ODDG") 
+      %td= count_male_or_female('M') 
+      %td= count_male_or_female('F') 
+      %td= age_range_div 
+      %td= nature_emp_div('contractual') 
+      %td= nature_emp_div('permanent') 
+      %td= existing_hmo_div('yes') 
+      %td= existing_hmo_div('no') 
+
+    %tr
+      %td
+      %td= set_division("ODG") 
+      %td= count_male_or_female('M') 
+      %td= count_male_or_female('F') 
+      %td= age_range_div 
+      %td= nature_emp_div('contractual') 
+      %td= nature_emp_div('permanent') 
+      %td= existing_hmo_div('yes') 
+      %td= existing_hmo_div('no') 
+
+    %tr
+      %td
+      %td= set_division("PCRD") 
+      %td= count_male_or_female('M') 
+      %td= count_male_or_female('F') 
+      %td= age_range_div 
+      %td= nature_emp_div('contractual') 
+      %td= nature_emp_div('permanent') 
+      %td= existing_hmo_div('yes') 
+      %td= existing_hmo_div('no') 
+
+    %tr
+      %td
+      %td= set_division("PMD") 
+      %td= count_male_or_female('M') 
+      %td= count_male_or_female('F') 
+      %td= age_range_div 
+      %td= nature_emp_div('contractual') 
+      %td= nature_emp_div('permanent') 
+      %td= existing_hmo_div('yes') 
+      %td= existing_hmo_div('no') 
+
+    %tr
+      %td
+      %td= set_division("PMU") 
+      %td= count_male_or_female('M') 
+      %td= count_male_or_female('F') 
+      %td= age_range_div 
+      %td= nature_emp_div('contractual') 
+      %td= nature_emp_div('permanent') 
+      %td= existing_hmo_div('yes') 
+      %td= existing_hmo_div('no') 
+
+    %tr
+      %td
+      %td= set_division("ROD") 
+      %td= count_male_or_female('M') 
+      %td= count_male_or_female('F') 
+      %td= age_range_div 
+      %td= nature_emp_div('contractual') 
+      %td= nature_emp_div('permanent') 
+      %td= existing_hmo_div('yes') 
+      %td= existing_hmo_div('no') 

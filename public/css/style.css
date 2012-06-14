@@ -205,11 +205,28 @@ footer {
 }
 
 /* =================== */
-input[type=submit] {
-  padding: 10px 180px;
+button {
+  width: 400px;
+  height: 50px;
   margin-left: 250px;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+button:focus {
+  color: white;
+  background-color: #4183c4;
+  text-shadow: 0 1px 0 black;
+}
+
+button:hover {
+  color: white;
+  background-color: #4183c4;
+  text-shadow: 0 1px 0 black;
+  border-radius: 4px;
 }
 
 label,
@@ -252,4 +269,9 @@ textarea:focus {
     padding: 3px 0px 3px 3px;
     margin: 3px 1px 3px 0px;
     border: 1px solid rgba(81, 203, 238, 1);
+}
+
+/* Table in List View */
+table {
+  margin-bottom: 30px;
 }

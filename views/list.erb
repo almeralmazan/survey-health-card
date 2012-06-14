@@ -9,7 +9,7 @@
   <table border="1">
     <tr>
       <th rowspan="2">Region</th>
-      <th rowspan="2">Province</th>
+      <th rowspan="2">Division</th>
       <th colspan="2">Gender</th>
       <th rowspan="2">Age range</th>
       <th colspan="2">Nature Of Employment</th>
@@ -23,16 +23,55 @@
       <td>Yes</td>
       <td>No</td>
     </tr>
-  </table>
+    <tr>
+      <!-- try to eliminate the region name and create helper method
+           or private method and insert in every helper method -->
+      <td><%= set_region("Region VIII") %></td>
+      <td>Provinces</td>
+      <td><%= count_by("gender", "M") %></td>
+      <td><%= count_by("gender", "F") %></td>
+      <td><%= age_range_in %></td>
+      <td><%= nature_emp_by('contractual') %></td>
+      <td><%= nature_emp_by('permanent') %></td>
+      <td><%= existing_hmo_by('yes') %></td>
+      <td><%= existing_hmo_by('no') %></td>
+    </tr>
 
-  <% unless @plist.empty? %>
-    <ol>
-    <% @plist.each do |plist| %>
-      <li><%= plist.name %></li>
-    <% end %>
-  </ol>
-  <% else%>
-    <p>No person!</p>
-  <% end %>
+    <tr>
+      <td><%= set_region(reg) %></td>
+      <td>Provinces</td>
+      <td><%= count_by("gender", "M") %></td>
+      <td><%= count_by("gender", "F") %></td>
+      <td><%= age_range_in %></td>
+      <td><%= nature_emp_by('contractual') %></td>
+      <td><%= nature_emp_by('permanent') %></td>
+      <td><%= existing_hmo_by('yes') %></td>
+      <td><%= existing_hmo_by('no') %></td>
+    </tr>
+
+    <tr>
+    <td><%= set_region("Region II") %></td>
+      <td>Provinces</td>
+      <td><%= count_by("gender", "M") %></td>
+      <td><%= count_by("gender", "F") %></td>
+      <td><%= age_range_in %></td>
+      <td><%= nature_emp_by('contractual') %></td>
+      <td><%= nature_emp_by('permanent') %></td>
+      <td><%= existing_hmo_by('yes') %></td>
+      <td><%= existing_hmo_by('no') %></td>
+    </tr>
+
+    <tr>
+      <td><%= set_region("Region XII") %></td>
+      <td>Provinces</td>
+      <td><%= count_by("gender", "M") %></td>
+      <td><%= count_by("gender", "F") %></td>
+      <td><%= age_range_in %></td>
+      <td><%= nature_emp_by('contractual') %></td>
+      <td><%= nature_emp_by('permanent') %></td>
+      <td><%= existing_hmo_by('yes') %></td>
+      <td><%= existing_hmo_by('no') %></td>
+    </tr>
+  </table>
 
 </div><!-- end list-view -->

@@ -3,13 +3,19 @@ require 'data_mapper'
 require 'haml'
 require File.expand_path('../model.rb', __FILE__)
 
+
+#================
 # home page
+#================
 get '/' do
   @title = 'Health Card Subscription'
   haml :index
 end
 
+
+#================
 # create record
+#================
 post '/create' do
   p              = Person.new
   p.name         = params[:name]
@@ -45,25 +51,73 @@ post '/create' do
   end
 end
 
+
+#================
 # list all persons
+#================
 get '/list' do
   @plist = Person.all
-
-  reg8_min_age = Person.min(:age, :conditions => [ 'region = ?', 'Region VIII' ])
-  reg8_max_age = Person.max(:age, :conditions => [ 'region = ?', 'Region VIII' ])
-  @region8_age_range = age_range(reg8_min_age, reg8_max_age)
   erb :list
 end
 
+
+#================
 # Helper methods
+#================
 helpers do
 
-  def count_by(column, value)
-    Person.count(:conditions => [ "#{column} = ?", "#{value}"])
+  def set_region(region)
+    @region_val = region
   end
 
-  def age_range(min, max)
-    "#{min} - #{max}"
+  def count_by(column, value)
+    Person.count(:region => "#{@region_val}", :conditions => [ "#{column} = ?", "#{value}"])
+  end
+
+  def age_range_in
+    min_age = Person.min(:age, :conditions => [ 'region = ?', "#{@region_val}" ])
+    max_age = Person.max(:age, :conditions => [ 'region = ?', "#{@region_val}" ])
+
+    if min_age.nil? || max_age.nil?
+      "None"
+    else
+      "#{min_age} - #{max_age}"
+    end
+  end
+
+  def nature_emp_by(perma_or_contr)
+    Person.count(:region => "#{@region_val}", :conditions => [ 'nature = ?', "#{perma_or_contr}" ])
+  end
+
+  def existing_hmo_by(yes_or_no)
+    Person.count(:region => "#{@region_val}", :conditions => [ 'emp_hcp_ans1 = ?', "#{yes_or_no}" ])
+  end
+
+  #-------------- DIVISIONS ------------------
+  def set_division(div)
+    @div_val = div
+  end
+
+  def count_male_or_female(div_gender)
+    Person.count(:division => "#{@div_val}", :conditions => [ 'gender = ?', "#{div_gender}" ])
+  end
+
+  def age_range_div
+    min_age = Person.min(:age, :conditions => [ 'division = ?', "#{@div_val}" ])
+    max_age = Person.max(:age, :conditions => [ 'division = ?', "#{@div_val}" ])
+    if min_age.nil? || max_age.nil?
+      "None"
+    else
+      "#{min_age} - #{max_age}"
+    end
+  end
+
+  def nature_emp_div(perma_or_contr)
+    Person.count(:division => "#{@div_val}", :conditions => [ 'nature = ?', "#{perma_or_contr}" ])
+  end
+
+  def existing_hmo_div(yes_or_no)
+    Person.count(:division => "#{@div_val}", :conditions => [ 'emp_hcp_ans1 = ?', "#{yes_or_no}" ])
   end
 
 end
