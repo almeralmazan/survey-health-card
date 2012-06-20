@@ -1,12 +1,12 @@
 var regiondb = new Object();
 	
-regiondb["Region I"] = [{value:"Dagupan City", text:"Dagupan City"},
+regiondb["Region-I"] = [{value:"Dagupan City", text:"Dagupan City"},
                       {value:"Ilocos Norte", text:"Ilocos Norte"},
                       {value:"Ilocos Sur", text:"Ilocos Sur"},
                       {value:"La Union", text:"La Union"},
                       {value:"Pangasinan", text:"Pangasinan"}];
 
-regiondb["Region II"] = [{value:"Batanes", text:"Batanes"},
+regiondb["Region-II"] = [{value:"Batanes", text:"Batanes"},
                       {value:"Cagayan", text:"Cagayan"},
                       {value:"Isabela", text:"Isabela"},
                       {value:"Nueva Vizcaya", text:"Nueva Vizcaya"},
@@ -14,7 +14,7 @@ regiondb["Region II"] = [{value:"Batanes", text:"Batanes"},
                       {value:"Santiago City", text:"Santiago City"},
                       {value:"Tuguegarao City", text:"Tuguegarao City"}];
 
-regiondb["Region III"] = [{value:"Angeles City", text:"Angeles City"},
+regiondb["Region-III"] = [{value:"Angeles City", text:"Angeles City"},
                       {value:"Aurora", text:"Aurora"},
                       {value:"Bataan", text:"Bataan"},
                       {value:"Bulacan", text:"Bulacan"},
@@ -24,7 +24,7 @@ regiondb["Region III"] = [{value:"Angeles City", text:"Angeles City"},
                       {value:"Zambales", text:"Zambales"}];
 
                       
-regiondb["Region IVa"] = [{value:"Antipolo City", text:"Antipolo City"},
+regiondb["Region-IVa"] = [{value:"Antipolo City", text:"Antipolo City"},
                       {value:"Batangas", text:"Batangas"},
                       {value:"Cavite", text:"Cavite"},
                       {value:"Laguna", text:"Laguna"},
@@ -32,20 +32,20 @@ regiondb["Region IVa"] = [{value:"Antipolo City", text:"Antipolo City"},
                       {value:"Quezon", text:"Quezon"},
                       {value:"Rizal", text:"Rizal"}];
 
-regiondb["Region IVb"] = [{value:"Marinduque", text:"Marinduque"},
+regiondb["Region-IVb"] = [{value:"Marinduque", text:"Marinduque"},
                       {value:"Occidental Mindoro", text:"Occidental Mindoro"},
                       {value:"Oriental Mindoro", text:"Oriental Mindoro"},
                       {value:"Palawan", text:"Palawan"},
                       {value:"Romblon", text:"Romblon"}];
 
-regiondb["Region V"] = [{value:"Albay", text:"Albay"},
+regiondb["Region-V"] = [{value:"Albay", text:"Albay"},
                       {value:"Camarines Norte", text:"Camarines Norte"},
                       {value:"Camarines Sur", text:"Camarines Sur"},
                       {value:"Catanduanes", text:"Catanduanes"},
                       {value:"Masbate", text:"Masbate"},
                       {value:"Sorsogon", text:"Sorsogon"}];
 
-regiondb["Region VI"] = [{value:"Aklan", text:"Aklan"},
+regiondb["Region-VI"] = [{value:"Aklan", text:"Aklan"},
                       {value:"Antique", text:"Antique"},
                       {value:"Bacolod City", text:"Bacolod City"},
                       {value:"Capiz", text:"Capiz"},
@@ -55,12 +55,12 @@ regiondb["Region VI"] = [{value:"Aklan", text:"Aklan"},
                       {value:"Negros Occidental", text:"Negros Occidental"},
                       {value:"Palawan", text:"Palawan"}];
 
-regiondb["Region VII"] = [{value:"Bohol", text:"Bohol"},
+regiondb["Region-VII"] = [{value:"Bohol", text:"Bohol"},
                       {value:"Cebu", text:"Cebu"},
                       {value:"Negros Oriental", text:"Negros Oriental"},
                       {value:"Siquijor", text:"Siquijor"}];
 
-regiondb["Region VIII"] = [{value:"Biliran", text:"Biliran"},
+regiondb["Region-VIII"] = [{value:"Biliran", text:"Biliran"},
                       {value:"Eastern Samar", text:"Eastern Samar"},
                       {value:"Leyte", text:"Leyte"},
                       {value:"Northern Samar", text:"Northern Samar"},
@@ -69,13 +69,13 @@ regiondb["Region VIII"] = [{value:"Biliran", text:"Biliran"},
                       {value:"Southern Leyte", text:"Southern Leyte"},
                       {value:"Tacloban City", text:"Tacloban City"}];
 
-regiondb["Region IX"] = [{value:"Isabela City", text:"Isabela City"},
+regiondb["Region-IX"] = [{value:"Isabela City", text:"Isabela City"},
                       {value:"Zamboanga City", text:"Zamboanga City"},
                       {value:"Zamboanga Del Norte", text:"Zamboanga Del Norte"},
                       {value:"Zamboanga Del Sur", text:"Zamboanga Del Sur"},
                       {value:"Zamboanga Sibugay", text:"Zamboanga Sibugay"}];
 
-regiondb["Region X"] = [{value:"Bukidnon", text:"Bukidnon"},
+regiondb["Region-X"] = [{value:"Bukidnon", text:"Bukidnon"},
                       {value:"Cagayan De Oro City", text:"Cagayan De Oro City"},
                       {value:"Camiguin", text:"Camiguin"},
                       {value:"Iligan City", text:"Iligan City"},
@@ -83,13 +83,13 @@ regiondb["Region X"] = [{value:"Bukidnon", text:"Bukidnon"},
                       {value:"Misamis Occidental", text:"Misamis Occidental"},
                       {value:"Misamis Oriental", text:"Misamis Oriental"}];
 
-regiondb["Region XI"] = [{value:"Compostela Valley", text:"Compostela Valley"},
+regiondb["Region-XI"] = [{value:"Compostela Valley", text:"Compostela Valley"},
                       {value:"Davao City", text:"Davao City"},
                       {value:"Davao Del Norte", text:"Davao Del Norte"},
                       {value:"Davao Del Sur", text:"Davao Del Sur"},
                       {value:"Davao Oriental", text:"Davao Oriental"}];
 
-regiondb["Region XII"] = [{value:"Cotabato", text:"Cotabato"},
+regiondb["Region-XII"] = [{value:"Cotabato", text:"Cotabato"},
                       {value:"Cotabato City", text:"Cotabato City"},
                       {value:"General Santos City", text:"General Santos City"},
                       {value:"Koronadal City", text:"Koronadal City"},
@@ -97,7 +97,7 @@ regiondb["Region XII"] = [{value:"Cotabato", text:"Cotabato"},
                       {value:"South Cotabato", text:"South Cotabato"},
                       {value:"Sultan Kudarat", text:"Sultan Kudarat"}];
 
-regiondb["Region XIII"] = [{value:"Agusan Del Norte", text:"Agusan Del Norte"},
+regiondb["Region-XIII"] = [{value:"Agusan Del Norte", text:"Agusan Del Norte"},
                       {value:"Agusan Del Sur", text:"Agusan Del Sur"},
                       {value:"Butuan City", text:"Butuan City"},
                       {value:"Dinagat Islands", text:"Dinagat Islands"},

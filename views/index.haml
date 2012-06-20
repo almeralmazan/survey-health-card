@@ -37,6 +37,7 @@
 
     %label(for="division") Divisions
     %select(id="division" name="division")
+      %option(value="") None
       %option(value="Regional Office") Regional Office
       %option(value="PCRD") PCRD
       %option(value="ROD") ROD
@@ -126,4 +127,4 @@
     %p Please fill-in the space provided with your comments and suggestions that may not have been covered by this survey form.
     %textarea(rows="4" name="comments")
 
-  %button(type="button")Save
+  %input(type="submit" value="Save")
