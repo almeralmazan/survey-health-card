@@ -9,7 +9,7 @@ require File.expand_path('../model.rb', __FILE__)
 #================
 get '/' do
   @title = 'Health Card Subscription'
-  haml :index
+  erb :index
 end
 
 
@@ -44,7 +44,7 @@ post '/create' do
 
   if p.save
     #status 201
-    haml :success
+    erb :success
   else
     #status 412
     redirect '/failed'
