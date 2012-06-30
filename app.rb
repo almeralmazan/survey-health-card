@@ -8,7 +8,7 @@ require File.expand_path('../model.rb', __FILE__)
 # home page
 #================
 get '/' do
-  @title = 'Health Card Subscription'
+  @title = 'Survey Health Card Subscription'
   erb :index
 end
 
