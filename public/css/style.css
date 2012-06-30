@@ -19,6 +19,16 @@ h3 {
   padding-bottom: 8px;
 }
 
+li {
+  padding-bottom: 5px;
+}
+
+#specify {
+  margin-top: 5px;
+  height: 12px;
+  width: 360px;
+}
+
 textarea {
   width: 550px;
   height: 100px;

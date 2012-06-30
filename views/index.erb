@@ -100,26 +100,30 @@
         
         <li>If yes, what health services do you want covered by the Health Card program?</li>
         <div id='six-chbox-one-input-text'>
-        <input class='cbox' name='ape' type='checkbox' value='Annual Physical Examination'>
-          <span class='emp_checkbox'>Annual Physical Examination<br /></span>
-        </input>
-        <input class='cbox' name='ipc' type='checkbox' value='In-Patient Care (hospital admission)'>
-          <span class='emp_checkbox'>In-Patient Care (hospital admission)<br /></span>
-        </input>
-        <input class='cbox' name='opc' type='checkbox' value='Out-Patient Care (clinic-based)'>
-          <span class='emp_checkbox'>Out-Patient Care (clinic-based)<br /></span>
-        </input>
-        <input class='cbox' name='ec' type='checkbox' value='Emergency Care'>
-          <span class='emp_checkbox'>Emergency Care<br /></span>
-        </input>
-        <input class='cbox' name='dc' type='checkbox' value='Dental Care'>
-          <span class='emp_checkbox'>Dental Care<br /></span>
-        </input>
-        <input class='cbox' name='fca' type='checkbox' value='Financial Care Assistance'>
-          <span class='emp_checkbox'>Financial Care Assistance<br /></span>
-        </input>
-        <span id='other_span'>Others (pls. specify)</span>
-        <input name='others' type='text'><br /></input>
+          <div class="row">
+            <div class="span8">
+              <div class="row">
+                <div class="span4">
+                  <input class='cbox' name='ape' type='checkbox' value='Annual Physical Examination' />
+                  <span class='emp_checkbox'>Annual Physical Examination<br /></span>
+                  <input class='cbox' name='ipc' type='checkbox' value='In-Patient Care (hospital admission)' />
+                  <span class='emp_checkbox'>In-Patient Care (hospital admission)<br /></span>
+                  <input class='cbox' name='opc' type='checkbox' value='Out-Patient Care (clinic-based)' />
+                  <span class='emp_checkbox'>Out-Patient Care (clinic-based)<br /></span>
+                </div>
+                <div class="span4">
+                  <input class='cbox' name='ec' type='checkbox' value='Emergency Care' />
+                  <span class='emp_checkbox'>Emergency Care<br /></span>
+                  <input class='cbox' name='dc' type='checkbox' value='Dental Care' />
+                  <span class='emp_checkbox'>Dental Care<br /></span>
+                  <input class='cbox' name='fca' type='checkbox' value='Financial Care Assistance' />
+                  <span class='emp_checkbox'>Financial Care Assistance<br /></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span id='other_span'>Others (pls. specify)</span>
+          <input id="specify" name='others' type='text'><br /></input>
         </div>
         <input id='no_answer' name='no_answer' type='checkbox' value='No Answer'>
         <span class='emp_checkbox'>No Answer</span>
@@ -130,7 +134,7 @@
     <div class="well">
       <h3>Financial Considerations</h3>
       <ol>
-        <li>Are you willing to spend personal money to finance your subscription to a Health Card program (thru a corporate account with a HMO)?</li>
+        <li>Are you willing to spend personal money to finance your subscription to <br /> a Health Card program (thru a corporate account with a HMO)?</li>
         <select name='fin_ans1'>
           <option value='yes'>Yes</option>
           <option value='no'>No</option>
@@ -154,7 +158,7 @@
 
     <div class="well">
       <h3>Employee Comments / Suggestions / Queries</h3>
-      <textarea id="styled" name="comments" onfocus="setbg('#e5fff3');" onblur="setbg('white')" placeholder="Please fill-in the space provided with your comments and suggestions."></textarea>
+      <textarea id="styled" name="comments" onfocus="setbg('papayaWhip');" onblur="setbg('white')" placeholder="Please fill-in the space provided with your comments and suggestions."></textarea>
     </div><!-- comments -->
 
     <input class="btn btn-primary btn-large" type='submit' value="Save" />
