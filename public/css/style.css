@@ -3,7 +3,7 @@ body {
 }
 
 .main-content {
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 50px;
 }
 
@@ -38,5 +38,15 @@ textarea {
 }
 
 footer {
+  text-align: center;
+}
+
+/* home page */
+.hero-unit {
+  margin-top: 100px;
+}
+
+.hero-unit h2,
+.hero-unit p {
   text-align: center;
 }

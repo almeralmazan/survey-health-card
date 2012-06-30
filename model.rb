@@ -1,4 +1,10 @@
-DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/health_card.db")
+DataMapper.setup(:default, {
+  :adapter  => 'mysql',
+  :database => 'hcdb',
+  :username => 'root',
+  :password => '',
+  :host     => 'localhost'
+})
 
 class Person
 
