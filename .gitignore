@@ -1,4 +1,4 @@
 .DS_Store
 *.swp
-*.db
-*.csv
+/health_card.db
+/people.csv
