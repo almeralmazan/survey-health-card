@@ -1,151 +1,162 @@
-<form id="theform" action="/create" method="post">
-	<div id="personal-details">
-		<h3>Personal Details</h3>
-		<label for="name">Name</label>
-		<input type="text" name="name" autofocus="autofocus" placeholder="Please input your name here..">
+<div class="span8 offset2">
+  <form id="theform" action="/create" method="post">
+    <div class="well">
+      <div class="row">
+        <div class="span8">
+        <h3>Personal Details</h3>
+        <div class="row">
+          <div class="span3">
+            <label for="name">Name</label>
+            <input type="text" name="name" autofocus="autofocus" placeholder="eg. Juan Dela Cruz">
 
-		<label for="gender">Gender</label>
-		<select name="gender">
-			<option value="M">Male</option>
-			<option value="F">Female</option>
-		</select>
+            <label for="gender">Gender</label>
+            <select name="gender">
+              <option value="M">Male</option>
+              <option value="F">Female</option>
+            </select>
 
-		<label for="age">Age</label>
-		<input type="number" name="age" min="20">
+            <label for="age">Age</label>
+            <input type="number" name="age" min="20">
 
-		<label for="region">Regions</label>
-		<select name="region" onchange="setCategory(this)">
-			<option value="" selected>Select Region</option>
-			<option value="Region-I">Region I (Ilocos Region)</option>
-			<option value="Region-II">Region II (Cagayan Valley)</option>
-			<option value="Region-III">Region III (Central Luzon)</option>
-			<option value="Region-IVa">Region IVa (CALABARZON)</option>
-			<option value="Region-IVb">Region IVb (MIMAROPA)</option>
-			<option value="Region-V">Region V (Bicol Region)</option>
-			<option value="Region-VI">Region VI (Western Visayas)</option>
-			<option value="Region-VII">Region VII (Central Visayas)</option>
-			<option value="Region-VIII">Region VIII (Eastern Visayas)</option>
-			<option value="Region-IX">Region IX (Zamboanga Peninsula)</option>
-			<option value="Region-X">Region X (Northern Mindanao)</option>
-			<option value="Region-XI">Region XI (Davao Region)</option>
-			<option value="Region-XII">Region XII (SOCCSKSARGEN)</option>
-			<option value="Region-XIII">Region XIII (Caraga Region)</option>
-			<option value="CAR">CAR (Cordillera Administrative Region</option>
-			<option value="NCR">NCR (National Capital Region)</option>
-		</select>
+            <label for="region">Regions</label>
+            <select name="region" onchange="setCategory(this)">
+              <option value="" selected>Select Region</option>
+              <option value="Region-I">Region I (Ilocos Region)</option>
+              <option value="Region-II">Region II (Cagayan Valley)</option>
+              <option value="Region-III">Region III (Central Luzon)</option>
+              <option value="Region-IVa">Region IVa (CALABARZON)</option>
+              <option value="Region-IVb">Region IVb (MIMAROPA)</option>
+              <option value="Region-V">Region V (Bicol Region)</option>
+              <option value="Region-VI">Region VI (Western Visayas)</option>
+              <option value="Region-VII">Region VII (Central Visayas)</option>
+              <option value="Region-VIII">Region VIII (Eastern Visayas)</option>
+              <option value="Region-IX">Region IX (Zamboanga Peninsula)</option>
+              <option value="Region-X">Region X (Northern Mindanao)</option>
+              <option value="Region-XI">Region XI (Davao Region)</option>
+              <option value="Region-XII">Region XII (SOCCSKSARGEN)</option>
+              <option value="Region-XIII">Region XIII (Caraga Region)</option>
+              <option value="CAR">CAR (Cordillera Administrative Region</option>
+              <option value="NCR">NCR (National Capital Region)</option>
+            </select>
 
-		<label for="province">Provinces</label>      
-		<select name="province" id="province"></select>
+            <label for="province">Provinces</label>      
+            <select name="province" id="province"></select>
+          </div><!-- first column -->
 
-  	<label for="division">Divisions</label>
-  	<select name="division" id="division">
-  		<option value=""> None</option>
-			<option value="Regional Office"> Regional Office</option>
-			<option value="PCRD"> PCRD</option>
-			<option value="ROD"> ROD</option>
-			<option value="NEWS DESK"> NEWS DESK</option>
-			<option value="ADMIN"> ADMIN</option>
-			<option value="ACCOUNTING"> ACCOUNTING</option>
-			<option value="BUDGET"> BUDGET</option>
-			<option value="CPSD"> CPSD</option>
-			<option value="PMD"> PMD</option>
-			<option value="PMU"> PMU</option>
-			<option value="HRDD"> HRDD</option>
-			<option value="MISD"> MISD</option>
-			<option value="ODG"> ODG</option>
-			<option value="ODDG"> ODDG</option>
-  	</select>
+          <div class="span3">
+            <label for="division">Divisions</label>
+            <select name="division" id="division">
+              <option value=""> None</option>
+              <option value="Regional Office"> Regional Office</option>
+              <option value="PCRD"> PCRD</option>
+              <option value="ROD"> ROD</option>
+              <option value="NEWS DESK"> NEWS DESK</option>
+              <option value="ADMIN"> ADMIN</option>
+              <option value="ACCOUNTING"> ACCOUNTING</option>
+              <option value="BUDGET"> BUDGET</option>
+              <option value="CPSD"> CPSD</option>
+              <option value="PMD"> PMD</option>
+              <option value="PMU"> PMU</option>
+              <option value="HRDD"> HRDD</option>
+              <option value="MISD"> MISD</option>
+              <option value="ODG"> ODG</option>
+              <option value="ODDG"> ODDG</option>
+            </select>
 
-  	<label for="nature">Nature of Employment</label>
-  	<select name="nature">
-  		<option value="contractual">Contractual</option>
-  		<option value="permanent">Permanent</option>
-  	</select>
+            <label for="nature">Nature of Employment</label>
+            <select name="nature">
+              <option value="contractual">Contractual</option>
+              <option value="permanent">Permanent</option>
+            </select>
 
-  	<label for="email">Email</label>
-  	<input type="text" name="email">
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="eg. myemail@gmail.com">
 
-  	<label for="cpno">Cellphone no.</label>
-  	<input type="text" name="cpno">
+            <label for="cpno">Cellphone no.</label>
+            <input type="text" name="cpno">
 
-  	<label for="other_cpno">Other Cellphone no.</label>
-  	<input type="text" name="other_cpno">
-	</div><!-- personal-details -->
+            <label for="other_cpno">Other Cellphone no.</label>
+            <input type="text" name="other_cpno">
+          </div><!-- personal-details -->
+        </div><!-- second column -->
+      </div><!-- 2nd row -->
+    </div>
+    </div>
 
-	<div id='employee-health'>
-  	<h3>Employee Health Card Program Need</h3>
-  	<ol>
-  		<li>Do you have an existing Health &amp; Management Office (HMO) / Health Card?</li>
-  		<select name='emp_hcp_ans1'>
-    		<option value='yes'>Yes</option>
-    		<option value='no'>No</option>
-  		</select>
-    		
-  		<li>If no, do you think, you need to subscribe to a Health Card program?</li>
-  		<select name='emp_hcp_ans2'>
-        <option value='yes'>Yes</option>
-        <option value='no'>No</option>
-  		</select>
-      
-			<li>If yes, what health services do you want covered by the Health Card program?</li>
-			<div id='six-chbox-one-input-text'>
-			<input class='cbox' name='ape' type='checkbox' value='Annual Physical Examination'>
-			  <span class='emp_checkbox'>Annual Physical Examination<br /></span>
-			</input>
-			<input class='cbox' name='ipc' type='checkbox' value='In-Patient Care (hospital admission)'>
-			  <span class='emp_checkbox'>In-Patient Care (hospital admission)<br /></span>
-			</input>
-			<input class='cbox' name='opc' type='checkbox' value='Out-Patient Care (clinic-based)'>
-			  <span class='emp_checkbox'>Out-Patient Care (clinic-based)<br /></span>
-			</input>
-			<input class='cbox' name='ec' type='checkbox' value='Emergency Care'>
-			  <span class='emp_checkbox'>Emergency Care<br /></span>
-			</input>
-			<input class='cbox' name='dc' type='checkbox' value='Dental Care'>
-			  <span class='emp_checkbox'>Dental Care<br /></span>
-			</input>
-			<input class='cbox' name='fca' type='checkbox' value='Financial Care Assistance'>
-			  <span class='emp_checkbox'>Financial Care Assistance<br /></span>
-			</input>
-			<span id='other_span'>Others (pls. specify)</span>
-			<input name='others' type='text'><br /></input>
-			</div>
-			<input id='no_answer' name='no_answer' type='checkbox' value='No Answer'>
-			<span class='emp_checkbox'>No Answer</span>
-			</input>
-		</ol>
-	</div><!-- employee-health -->
-  
-	<div id='financial-considerations'>
-		<h3>Financial Considerations</h3>
-		<ol>
-		  <li>Are you willing to spend personal money to finance your subscription to a Health Card program (thru a corporate account with a HMO)?</li>
-		  <select name='fin_ans1'>
-		    <option value='yes'>Yes</option>
-		    <option value='no'>No</option>
-		  </select>
-		  <li>If yes, how much are you willing to spend for your Health Card subscription?</li>
-		  <select id='fin_amount' name='fin_amount' onchange='createInputTextBox()'>
-		    <option value='Below P500 / monthly'>Below P500 / monthly</option>
-		    <option value='P500 / monthly'>P500 / monthly</option>
-		    <option value='Above P500 / monthly'>Above P500 / monthly</option>
-		    <option value='P1000 / monthly'>P1000 / monthly</option>
-		    <option value='Above P1000 / monthly'>Above P1000 / monthly</option>
-		    <option value='others'>Other amount, pls. specify</option>
-		  </select>
-		  <!-- pre-generated input textbox from javascript -->
-		  <div id='others'></div>
-		</ol>
-	</div><!-- financial-considerations -->
+    <div class="well">
+      <h3>Employee Health Card Program Need</h3>
+      <ol>
+        <li>Do you have an existing Health &amp; Management Office (HMO) / Health Card?</li>
+        <select name='emp_hcp_ans1'>
+          <option value='yes'>Yes</option>
+          <option value='no'>No</option>
+        </select>
+          
+        <li>If no, do you think, you need to subscribe to a Health Card program?</li>
+        <select name='emp_hcp_ans2'>
+          <option value='yes'>Yes</option>
+          <option value='no'>No</option>
+        </select>
+        
+        <li>If yes, what health services do you want covered by the Health Card program?</li>
+        <div id='six-chbox-one-input-text'>
+        <input class='cbox' name='ape' type='checkbox' value='Annual Physical Examination'>
+          <span class='emp_checkbox'>Annual Physical Examination<br /></span>
+        </input>
+        <input class='cbox' name='ipc' type='checkbox' value='In-Patient Care (hospital admission)'>
+          <span class='emp_checkbox'>In-Patient Care (hospital admission)<br /></span>
+        </input>
+        <input class='cbox' name='opc' type='checkbox' value='Out-Patient Care (clinic-based)'>
+          <span class='emp_checkbox'>Out-Patient Care (clinic-based)<br /></span>
+        </input>
+        <input class='cbox' name='ec' type='checkbox' value='Emergency Care'>
+          <span class='emp_checkbox'>Emergency Care<br /></span>
+        </input>
+        <input class='cbox' name='dc' type='checkbox' value='Dental Care'>
+          <span class='emp_checkbox'>Dental Care<br /></span>
+        </input>
+        <input class='cbox' name='fca' type='checkbox' value='Financial Care Assistance'>
+          <span class='emp_checkbox'>Financial Care Assistance<br /></span>
+        </input>
+        <span id='other_span'>Others (pls. specify)</span>
+        <input name='others' type='text'><br /></input>
+        </div>
+        <input id='no_answer' name='no_answer' type='checkbox' value='No Answer'>
+        <span class='emp_checkbox'>No Answer</span>
+        </input>
+      </ol>
+    </div><!-- employee-health -->
+    
+    <div class="well">
+      <h3>Financial Considerations</h3>
+      <ol>
+        <li>Are you willing to spend personal money to finance your subscription to a Health Card program (thru a corporate account with a HMO)?</li>
+        <select name='fin_ans1'>
+          <option value='yes'>Yes</option>
+          <option value='no'>No</option>
+        </select>
+        <li>If yes, how much are you willing to spend for your Health Card subscription?</li>
+        <select id='fin_amount' name='fin_amount' onchange='createInputTextBox()'>
+          <option value='Below P500 / monthly'>Below P500 / monthly</option>
+          <option value='P500 / monthly'>P500 / monthly</option>
+          <option value='Above P500 / monthly'>Above P500 / monthly</option>
+          <option value='P1000 / monthly'>P1000 / monthly</option>
+          <option value='Above P1000 / monthly'>Above P1000 / monthly</option>
+          <option value='others'>Other amount, pls. specify</option>
+        </select>
+        <!-- pre-generated input textbox from javascript -->
+        <div id='others'></div>
+      </ol>
+    </div><!-- financial-considerations -->
 
-  	<!-- lazy way to do a space between floated content -->
-	<div style="clear: left;"></div>
+      <!-- lazy way to do a space between floated content -->
+    <div style="clear: left;"></div>
 
-	<div id='comments'>
-  	<h3>Employee Comments / Suggestions / Queries</h3>
-  	<p>Please fill-in the space provided with your comments and suggestions that may not have been covered by this survey form.</p>
-  	<textarea name='comments' rows='4'></textarea>
-	</div><!-- comments -->
+    <div class="well">
+      <h3>Employee Comments / Suggestions / Queries</h3>
+      <textarea id="styled" name="comments" onfocus="setbg('#e5fff3');" onblur="setbg('white')" placeholder="Please fill-in the space provided with your comments and suggestions."></textarea>
+    </div><!-- comments -->
 
-	<input type='submit' value="Save" />
-</form>
+    <input class="btn btn-primary btn-large" type='submit' value="Save" />
+  </form>
+</div><!-- 1st level outer row -->

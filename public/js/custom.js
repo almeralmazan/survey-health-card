@@ -26,3 +26,9 @@ function createInputTextBox() {
     document.getElementById('others').innerHTML = ""; 
   }
 }
+
+
+// customize textarea
+function setbg(color) {
+  document.getElementById("styled").style.background=color;
+}

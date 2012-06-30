@@ -5,11 +5,19 @@ require File.expand_path('../model.rb', __FILE__)
 
 
 #================
-# home page
+# create page
 #================
 get '/' do
-  @title = 'Survey Health Card Subscription'
+  @title = 'Survey Health Card Subscription | Create'
   erb :index
+end
+
+#================
+# home page
+#================
+get '/home' do
+  @title = 'Survey Health Card Subscription | PIA'
+  erb :home
 end
 
 
@@ -43,7 +51,7 @@ post '/create' do
   p.comments     = params[:comments]
 
   if p.save
-    #status 201
+    @title = "Success Page"
     erb :success
   else
     #status 412
@@ -56,6 +64,7 @@ end
 # list all persons
 #================
 get '/list' do
+  @title = 'Survey Health Card Subscription | Summary'
   @plist = Person.all
   erb :list
 end

@@ -1,277 +1,32 @@
-body { 
-  font-family: Helvetica;
-  padding: 0;
-  margin: 0;
-  background-color: #fafafa;
-}
-
-#personal-details, 
-#employee-health, 
-#financial-considerations, 
-#comments {
-  background-color: #fff;
-}
-
-header, 
-#main-content, 
-footer {
-  width: 960px;
-  margin: auto;
-}
-
-header p {
-  background-color: #000;
-  font-size: 30px;
-  color: white;
-  margin: 0;
-  padding: 10px 25px;
-}
-
-
-/*= Personal Details */
-#personal-details {
-  position: relative;
-  float: left;
-  width: 320px;
-  border: 1px solid #eee;
-  margin-top: 30px;
-  margin-left: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 45px;
-  border-radius: 3px;
-}
-
-#personal-details h3 {
-  width: 260px;
-  border-bottom: 2px solid #aaa;
-}
-
-#personal-details input,
-#personal-details select {
-  width: 250px;
-  margin-bottom: 15px;
-  padding: 5px;
-  color: #555;
-}
-
-
-/*= Employee Health Card Program Need */
-#employee-health {
-  float: right;
-  width: 480px;
-  border: 1px solid #eee;
-  margin-top: 30px;
-  margin-right: 20px;
-  padding: 10px 25px;
-  border-radius: 3px;
-}
-
-#employee-health input[type=text] {
-  padding: 5px;
-}
-
-#employee-health h3 {
-  border-bottom: 2px solid #aaa;
-}
-
-#employee-health select {
-  width: 200px;
-  border: 1px solid #aaa;
-  padding: 5px;
-  margin-bottom: 20px;
-}
-
-.emp_checkbox {
-  font-size: 15px;
-}
-
-
-/*= Financial Considerations */
-#financial-considerations {
-  float: right;
-  width: 480px;
-  border: 1px solid #eee;
-  margin-top: 15px;
-  margin-right: 20px;
-  padding: 10px 25px 18px 25px;
-  border-radius: 3px;
-}
-
-#financial-considerations h3 {
-  border-bottom: 2px solid #aaa;
-}
-
-#financial-considerations select {
-  width: 200px;
-  padding: 5px;
-  margin-bottom: 20px;
-}
-
-#financial-considerations input[type=text] {
-  border: 1px solid #aaa;
-  padding: 5px;
-}
-
-#fin_amount {
-  display: inline;
-  float: left;
-}
-
-.others {
-  margin-left: 15px;
-}
-
-#other_span {
-  font-family: Helvetica;
-}
-
-
-/*= Comments */
-#comments {
-  border: 1px solid #eee;
-  margin-top: 15px;
-  margin-left: 20px;
-  border-radius: 3px;
-  padding-left: 25px;
-  padding-bottom: 25px;
-  width: 340px;
-}
-
-#comments textarea {
-  width: 280px;
-  height: 40px;
-  padding: 10px 10px;
-}
-
-#comments h3 {
-  width: 300px;
-  border-bottom: 2px solid #aaa;
-}
-
-#comments p {
-  font-style: italic;
-  font-family: Times;
-  padding-right: 25px;
-}
-
-
-/*= Footer */
-footer {
-  background-color: black;
-  color: white;
-  font-family: sans-serif;
-  font-size: small;
-  padding: 5px 25px;
-}
-
-
-/* From Success page content */
-/*= Success Info */
-#success-container {
-  height: 500px;
-}
-
-#success-info {
-  font-family: Helvetica, sans-serif;
-  margin-top: 30px;
-  padding-top: 10px;
-  padding-left: 50px;
-  padding-bottom: 30px;
-}
-
-#success-info a:focus {
-  color: white;
-  background-color: #4183c4;
-  text-shadow: 0 1px 0 black;
-}
-
-#success-info a:link {
-  padding: 10px 30px;
-  color: #333px;
+body {
   font-size: 13px;
-  font-weight: bold;
-  text-shadow: 0 1px 0 white;
-  border: 1px solid #d4d4d4;
-  border-radius: 3px;
-  text-decoration: none;
 }
 
-#success-info a:hover {
-  color: white;
-  background-color: #4183c4;
-  text-shadow: 0 1px 0 black;
-  border-radius: 4px;
+.main-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-/* =================== */
-input[type=submit] {
-  width: 400px;
-  height: 50px;
-  margin-left: 250px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 3px;
-  background-color: #fff;
-  border: 1px solid #000;
+#others {
+  display: inline;
 }
 
-input[type=submit]:focus {
-  color: white;
-  background-color: #4183c4;
-  text-shadow: 0 1px 0 black;
+.span3 {
+  padding-left: 20px;
 }
 
-input[type=submit]:hover {
-  color: white;
-  background-color: #4183c4;
-  text-shadow: 0 1px 0 black;
-  border-radius: 4px;
+h3 {
+  padding-bottom: 8px;
 }
 
-label,
-textarea { 
-  display: block; 
-}
-
-label, 
-li {
-  font-size: 15px;
-  line-height: 1.3;
-  width: 400px;
-}
-
-li {
-  margin-top: 5px;
-  margin-bottom: 6px;
-}
-
-/* to remove yellow border on focus */
-input[type=text], 
-input[type=number],
-input[type=email],
 textarea {
-  -webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
-  outline: none;
-  padding: 3px 0px 3px 3px;
-  margin: 3px 1px 3px 0px;
-  border: 1px solid #DDDDDD;
+  width: 550px;
+  height: 100px;
+  max-width: 550px;
+  max-height: 100px;
+  padding: 5px;
 }
 
-input[type=text]:focus, 
-input[type=number]:focus,
-input[type=email]:focus,
-textarea:focus {
-    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-    padding: 3px 0px 3px 3px;
-    margin: 3px 1px 3px 0px;
-    border: 1px solid rgba(81, 203, 238, 1);
-}
-
-/* Table in List View */
-table {
-  margin-bottom: 30px;
+footer {
+  text-align: center;
 }
