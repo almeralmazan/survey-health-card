@@ -1,6 +1,5 @@
 require 'sinatra'
 require 'data_mapper'
-require 'haml'
 require File.expand_path('../model.rb', __FILE__)
 
 
