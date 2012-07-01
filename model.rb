@@ -1,10 +1,10 @@
-#DataMapper.setup(:default, {
-#  :adapter  => 'mysql',
-#  :database => 'hcdb',
-#  :username => 'root',
-#  :password => '',
-#  :host     => 'localhost'
-#})
+DataMapper.setup(:default, {
+  :adapter  => 'mysql',
+  :database => 'hcdb',
+  :username => 'root',
+  :password => '',
+  :host     => 'localhost'
+})
 
 class Person
 
