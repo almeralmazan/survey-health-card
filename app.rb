@@ -93,11 +93,11 @@ helpers do
     end
   end
 
-  def nature_emp_by(perma_or_contr)
+  def count_emp_by(perma_or_contr)
     Person.count(:region => "#{@region_val}", :conditions => [ 'nature = ?', "#{perma_or_contr}" ])
   end
 
-  def existing_hmo_by(yes_or_no)
+  def count_hmo_by(yes_or_no)
     Person.count(:region => "#{@region_val}", :conditions => [ 'emp_hcp_ans1 = ?', "#{yes_or_no}" ])
   end
 
