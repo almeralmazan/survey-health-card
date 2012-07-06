@@ -9,7 +9,7 @@
   <table class="table table-bordered table-striped table-condensed">
     <tr>
       <th rowspan="2">Region</th>
-      <th rowspan="2">Division</th>
+      <th rowspan="2">Provinces</th>
       <th colspan="2">Gender</th>
       <th rowspan="2">Age range</th>
       <th colspan="2">Nature Of Employment</th>
@@ -30,6 +30,7 @@
       regions = %w[ Region-I Region-II Region-III Region-IVa Region-IVb
                     Region-V Region-VI Region-VII Region-VIII Region-IX
                     Region-X Region-XI Region-XII Region-XIII NCR CAR ] 
+
       regions.each do |reg| 
     %>
     <tr>
@@ -38,10 +39,10 @@
       <td><%= count_by("gender", "M") %></td>
       <td><%= count_by("gender", "F") %></td>
       <td><%= age_range_in %></td>
-      <td><%= nature_emp_by('contractual') %></td>
-      <td><%= nature_emp_by('permanent') %></td>
-      <td><%= existing_hmo_by('yes') %></td>
-      <td><%= existing_hmo_by('no') %></td>
+      <td><%= count_emp_by('contractual') %></td>
+      <td><%= count_emp_by('permanent') %></td>
+      <td><%= count_hmo_by('yes') %></td>
+      <td><%= count_hmo_by('no') %></td>
     </tr>
     <% end %>
 
