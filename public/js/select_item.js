@@ -80,6 +80,7 @@ regiondb["Region-X"] = [{value:"Bukidnon", text:"Bukidnon"},
                       {value:"Camiguin", text:"Camiguin"},
                       {value:"Iligan City", text:"Iligan City"},
                       {value:"Lanao Del Norte", text:"Lanao Del Norte"},
+                      {value:"Lanao Del Sur", text:"Lanao Del Sur"},
                       {value:"Misamis Occidental", text:"Misamis Occidental"},
                       {value:"Misamis Oriental", text:"Misamis Oriental"}];
 
