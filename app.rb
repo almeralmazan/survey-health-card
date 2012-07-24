@@ -74,58 +74,8 @@ end
 #================
 helpers do
 
-  def set_region(region)
-    @region_val = region
+  def count_emp_by col_name, type
+    Person.count(:conditions => ["#{col_name} = ?", "#{type}"])
   end
-
-  def count_by(column, value)
-    Person.count(:region => "#{@region_val}", :conditions => [ "#{column} = ?", "#{value}"])
-  end
-
-  def age_range_in
-    min_age = Person.min(:age, :conditions => [ 'region = ?', "#{@region_val}" ])
-    max_age = Person.max(:age, :conditions => [ 'region = ?', "#{@region_val}" ])
-
-    if min_age.nil? || max_age.nil?
-      "None"
-    else
-      "#{min_age} - #{max_age}"
-    end
-  end
-
-  def count_emp_by(perma_or_contr)
-    Person.count(:region => "#{@region_val}", :conditions => [ 'nature = ?', "#{perma_or_contr}" ])
-  end
-
-  def count_hmo_by(yes_or_no)
-    Person.count(:region => "#{@region_val}", :conditions => [ 'emp_hcp_ans1 = ?', "#{yes_or_no}" ])
-  end
-
-  #-------------- DIVISIONS ------------------
-  def set_division(div)
-    @div_val = div
-  end
-
-  def count_male_or_female(div_gender)
-    Person.count(:division => "#{@div_val}", :conditions => [ 'gender = ?', "#{div_gender}" ])
-  end
-
-  def age_range_div
-    min_age = Person.min(:age, :conditions => [ 'division = ?', "#{@div_val}" ])
-    max_age = Person.max(:age, :conditions => [ 'division = ?', "#{@div_val}" ])
-    if min_age.nil? || max_age.nil?
-      "None"
-    else
-      "#{min_age} - #{max_age}"
-    end
-  end
-
-  def nature_emp_div(perma_or_contr)
-    Person.count(:division => "#{@div_val}", :conditions => [ 'nature = ?', "#{perma_or_contr}" ])
-  end
-
-  def existing_hmo_div(yes_or_no)
-    Person.count(:division => "#{@div_val}", :conditions => [ 'emp_hcp_ans1 = ?', "#{yes_or_no}" ])
-  end
-
+  
 end
