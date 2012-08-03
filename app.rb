@@ -59,9 +59,9 @@ post '/create' do
 end
 
 
-#================
+#==================
 # list all persons
-#================
+#==================
 get '/list' do
   @title = 'Survey Health Card Subscription | Summary'
   @plist = Person.all
@@ -78,4 +78,8 @@ helpers do
     Person.count(:conditions => ["#{col_name} = ?", "#{type}"])
   end
   
+  def count_gender_per_nature gender, nature
+    Person.all(:gender => "#{gender}").count(:nature => "#{nature}")
+  end
+
 end

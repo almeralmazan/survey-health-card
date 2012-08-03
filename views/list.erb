@@ -1,14 +1,12 @@
 <div id="list-view">
 
-  <h3>Records Summary</h3>
+  <h3>Employees Summary</h3>
 
   <div>
     <table class="table table-striped table-bordered table-condensed">
       <thead>
         <tr>
           <th></th>
-          <th>Male</th>
-          <th>Female</th>
           <th>Permanent</th>
           <th>Contractual</th>
           <th>Total</th>
@@ -16,15 +14,26 @@
       </thead>
       <tbody>
         <tr>
-          <td>Employees</td>
+          <td>Male</td>
+          <td><%= count_gender_per_nature 'M', 'permanent' %></td>
+          <td><%= count_gender_per_nature 'M', 'contractual' %></td>
           <td><%= count_emp_by 'gender', 'M' %></td>
+        </tr>
+        <tr>
+          <td>Female</td>
+          <td><%= count_gender_per_nature 'F', 'permanent' %></td>
+          <td><%= count_gender_per_nature 'F', 'contractual' %></td>
           <td><%= count_emp_by 'gender', 'F' %></td>
-          <td><%= count_emp_by 'nature', 'Permanent' %></td>
-          <td><%= count_emp_by 'nature', 'Contractual' %></td>
+        </tr>
+        <tr>
+          <td>Employees</td>
+          <td><%= count_emp_by 'nature', 'permanent' %></td>
+          <td><%= count_emp_by 'nature', 'contractual' %></td>
           <td><%= Person.count %></td>
         </tr>
       </tbody>
     </table>
+
   </div><!-- end .well -->
 
 </div><!-- end list-view -->
