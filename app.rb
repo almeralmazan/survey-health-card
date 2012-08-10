@@ -64,7 +64,7 @@ end
 #==================
 get '/list' do
   @title = 'Survey Health Card Subscription | Summary'
-  @plist = Person.all
+  # @plist = Person.all
   erb :list
 end
 
