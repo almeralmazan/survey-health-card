@@ -1,10 +1,12 @@
-DataMapper.setup(:default, {
-  :adapter  => 'mysql',
-  :database => 'hcdb',
-  :username => 'root',
-  :password => '',
-  :host     => 'localhost'
-})
+# DataMapper.setup(:default, {
+#   :adapter  => 'mysql',
+#   :database => 'hcdb',
+#   :username => 'root',
+#   :password => '',
+#   :host     => 'localhost'
+# })
+
+DataMapper.setup :default, "sqlite://#{Dir.pwd}/hcdb.db"
 
 class Person
 
