@@ -1,11 +1,10 @@
-# Used only for copying to new
-# client computer
+# Used only for copying to new client computer
 source :rubygems
 gem 'sinatra'
 gem 'data_mapper'
-gem 'dm-mysql-adapter'
+gem 'sqlite3'
 
 group :development do
   gem 'shotgun'
-  gem 'heroku'
+  # gem 'heroku'
 end
